@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
 # Read urls
-with open(r"pcpartPickerDataFomat\pcpartpickerURLs.txt", "r") as file:
+with open(r"pcpartPickerDataFomat\buildURLS.txt", "r") as file:
     urls = [line.strip() for line in file.readlines()]
 
 # Driver setup
@@ -18,8 +18,9 @@ driver = webdriver.Chrome(options=chrome_options)
 # Create json data for each pc build
 builds = []
 for i, url in enumerate(urls):
+    
     time.sleep(5) # Delay to prevent site anti scrapper
-    print(f'Part list ({i+1}/{len(urls)}): {url}')
+    print(f'Part List ({i+1}/{len(urls)}): {url}')
 
     driver.get(url)
     html = driver.page_source
@@ -58,7 +59,7 @@ for i, url in enumerate(urls):
         "Description": desc_text,
     })
 
+    driver.quit()
+
 with open("pcpartPickerDataFomat\pc_build_parts.json", "w") as json_file:
     json.dump(builds, json_file, indent=4)
-
-driver.quit()
