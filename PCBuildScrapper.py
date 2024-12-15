@@ -1,5 +1,6 @@
 import json
 import time
+import random
 from bs4 import BeautifulSoup
 from pypartpicker import Scraper
 from selenium import webdriver
@@ -10,8 +11,11 @@ from selenium.webdriver.chrome.options import Options
 with open(r"pcpartPickerDataFomat\buildURLS.txt", "r") as file:
     urls = [line.strip() for line in file.readlines()]
 
+urls = ["https://au.pcpartpicker.com/b/WZsXsY"]
+
 # Driver setup
 chrome_options = Options()
+chrome_options.add_argument('--disable-blink-features=AutomationControlled')
 chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(options=chrome_options)
 
@@ -19,16 +23,17 @@ driver = webdriver.Chrome(options=chrome_options)
 builds = []
 for i, url in enumerate(urls):
     
-    time.sleep(5) # Delay to prevent site anti scrapper
+    time.sleep(random.randint(5,7)) # Delay to prevent site anti scrapper
     print(f'Part List ({i+1}/{len(urls)}): {url}')
 
     driver.get(url)
     html = driver.page_source
     soup = BeautifulSoup(html, "html.parser")
 
-    # Get description and part list link
+    # Get description, name and part list link
     desc = soup.find("div", {"class": "markdown"})
     desc_text = [p.text.strip() for p in desc.find_all("p")]
+    name = soup.find("h1", {"class": "pageTitle build__name"}).text
     list_link = soup.find("span", {"class": "header-actions"})
     href = list_link.find("a")["href"]
     list_code = href.split("/")[-1]
@@ -55,11 +60,12 @@ for i, url in enumerate(urls):
 
     builds.append({
         "Build": i,
+        "Name": name,
         "Part List": build_data,
         "Description": desc_text,
     })
 
-    driver.quit()
-
 with open("pcpartPickerDataFomat\pc_build_parts.json", "w") as json_file:
     json.dump(builds, json_file, indent=4)
+
+driver.quit()
