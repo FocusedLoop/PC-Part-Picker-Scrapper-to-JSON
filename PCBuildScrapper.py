@@ -1,6 +1,4 @@
-import json
-import time
-import random
+import json, time, os
 from bs4 import BeautifulSoup
 from pypartpicker import Scraper
 from selenium.webdriver.chrome.service import Service
@@ -8,6 +6,8 @@ import undetected_chromedriver as uc
 
 chromePath = r"C:\chromedriver-win64\chromedriver.exe"
 chromeData = r"C:\Users\Joshua\AppData\Local\Google\Chrome\User Data"
+urlsFile = r"pcpartPickerDataFomat\buildURLS.txt"
+jsonFile = r"pcpartPickerDataFomat\pc_build_parts.json"
 
 # Driver setup
 chrome_options = uc.ChromeOptions()
@@ -20,8 +20,23 @@ chrome_options.add_argument("--disable-blink-features=AutomationControlled")
 driver = uc.Chrome(service=Service(chromePath), options=chrome_options)
 
 # Read urls
-with open(r"pcpartPickerDataFomat\buildURLS.txt", "r") as file:
+with open(urlsFile, "r") as file:
     urls = [line.strip() for line in file.readlines()]
+
+# Check for existing json
+if os.path.isfile(jsonFile):
+    with open(jsonFile, "r") as file:
+        previousFile = json.load(file)
+    lastBuild = previousFile[-1]["Build"] + 1
+    print(f"{lastBuild} existing builds in json file")
+else:
+    previousFile = []
+    lastBuild = 0
+
+# Reduce urls
+# Note - Converted urls: 0
+urlsAmount = 1000
+urls = urls[lastBuild:lastBuild+urlsAmount]
 
 # Create json data for each pc build
 builds = []
@@ -65,7 +80,7 @@ for i, url in enumerate(urls):
             }
 
         builds.append({
-            "Build": i,
+            "Build": lastBuild + i,
             "Name": name,
             "Part List": build_data,
             "Description": desc_text,
@@ -74,10 +89,12 @@ for i, url in enumerate(urls):
         print("Parts missing, skipping build...")
         skippedBuild += 1
 
-with open("pcpartPickerDataFomat\pc_build_parts.json", "w") as json_file:
-    json.dump(builds, json_file, indent=4)
 
-print(f"{len(urls)} PC Builds")
+with open(jsonFile, "w") as file:
+    previousFile.extend(builds)
+    json.dump(previousFile, file, indent=4)
+
+print(f"{len(urls)} PC Builds scrapped")
 print(f"{len(urls) - skippedBuild} PC Builds converted to json")
 print(f"{skippedBuild} PC Builds skipped")
 driver.quit()
