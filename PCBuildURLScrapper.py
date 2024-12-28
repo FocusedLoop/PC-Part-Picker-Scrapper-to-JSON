@@ -5,7 +5,6 @@ from selenium.webdriver.chrome.service import Service
 import undetected_chromedriver as uc
 from antiBot import passReCapture
 
-
 pages = 500
 build_urls = []
 

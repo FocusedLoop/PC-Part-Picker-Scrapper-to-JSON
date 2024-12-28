@@ -1,23 +1,16 @@
-import json, time, os
+import json, time, random, os
 from bs4 import BeautifulSoup
-from pypartpicker import Scraper
+from scrap_part_list import Scraper
 from selenium.webdriver.chrome.service import Service
 import undetected_chromedriver as uc
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 
-chromePath = r"C:\chromedriver-win64\chromedriver.exe"
-chromeData = r"C:\Users\Joshua\AppData\Local\Google\Chrome\User Data"
+from setProxy import randProxy
+
 urlsFile = r"pcpartPickerDataFomat\buildURLS.txt"
 jsonFile = r"pcpartPickerDataFomat\pc_build_parts.json"
-
-# Driver setup
-chrome_options = uc.ChromeOptions()
-chrome_options.add_argument(f"user-data-dir={chromeData}") 
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--no-sandbox")
-chrome_options.add_argument("--disable-gpu")
-chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-
-driver = uc.Chrome(service=Service(chromePath), options=chrome_options)
 
 # Read urls
 with open(urlsFile, "r") as file:
@@ -35,33 +28,46 @@ else:
 
 # Reduce urls
 # Note - Converted urls: 0
-urlsAmount = 1000
+urlsAmount = 10
 urls = urls[lastBuild:lastBuild+urlsAmount]
+attempts = 0
 
 # Create json data for each pc build
+driver = randProxy()
 builds = []
 skippedBuild = 0
 for i, url in enumerate(urls):
+
+    # Relaunch driver every 20 to 50 urls
+    if attempts > 0 and attempts % random.randint(20, 50) == 0:
+        print("Relaunching driver...")
+        driver.quit()
+        time.sleep(random.randint(5, 10))
+        driver = randProxy()
     
-    time.sleep(5) # Delay to allow for data to load
     print(f'Part List ({i+1}/{len(urls)}): {url}')
- 
-    driver.get(url)
-    html = driver.page_source
-    soup = BeautifulSoup(html, "html.parser")
-
-    # Get description, name and part list link
-    desc = soup.find("div", {"class": "markdown"})
-    desc_text = [p.text.strip() for p in desc.find_all("p")]
-    name = soup.find("h1", {"class": "pageTitle build__name"}).text
-    list_link = soup.find("span", {"class": "header-actions"})
-    href = list_link.find("a")["href"]
-    list_code = href.split("/")[-1]
-
-    # Create part list
-    pcpp = Scraper()
     try:
-        list = pcpp.fetch_list("https://au.pcpartpicker.com/list/" + list_code)
+        # Set url and wait for data to load
+        driver.get(url)
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.CLASS_NAME, "pageTitle build__name"))
+        )
+
+        html = driver.page_source
+        soup = BeautifulSoup(html, "html.parser")
+
+        pcpp = Scraper(driver)
+        # Get description, name and part list link
+        print(soup.find("h1", {"class": "pageTitle build__name"}).text)
+        desc = soup.find("div", {"class": "markdown"})
+        desc_text = [p.text.strip() for p in desc.find_all("p")]
+        name = soup.find("h1", {"class": "pageTitle build__name"}).text
+        list_link = soup.find("span", {"class": "header-actions"})
+        href = list_link.find("a")["href"]
+        list_code = href.split("/")[-1]
+
+        # Create part list
+        list = pcpp.fetch_list(f"https://au.pcpartpicker.com/list/{list_code}")
         parts = list.parts
         total = list.total
         parts_data = []
@@ -80,15 +86,16 @@ for i, url in enumerate(urls):
             }
 
         builds.append({
-            "Build": lastBuild + i,
+            "Build": lastBuild + i - skippedBuild,
             "Name": name,
             "Part List": build_data,
             "Description": desc_text,
         })
-    except:
+    except Exception as e:
         print("Parts missing, skipping build...")
         skippedBuild += 1
-
+    attempts += 1
+driver.quit()
 
 with open(jsonFile, "w") as file:
     previousFile.extend(builds)
@@ -97,4 +104,3 @@ with open(jsonFile, "w") as file:
 print(f"{len(urls)} PC Builds scrapped")
 print(f"{len(urls) - skippedBuild} PC Builds converted to json")
 print(f"{skippedBuild} PC Builds skipped")
-driver.quit()
