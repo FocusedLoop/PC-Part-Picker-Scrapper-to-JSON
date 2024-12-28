@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-from setProxy import randProxy
+from pcpartPickerDataFomat.setIP import randIP
 
 urlsFile = r"pcpartPickerDataFomat\buildURLS.txt"
 jsonFile = r"pcpartPickerDataFomat\pc_build_parts.json"
@@ -33,7 +33,7 @@ urls = urls[lastBuild:lastBuild+urlsAmount]
 attempts = 0
 
 # Create json data for each pc build
-driver = randProxy()
+driver = randIP()
 builds = []
 skippedBuild = 0
 for i, url in enumerate(urls):
@@ -43,7 +43,7 @@ for i, url in enumerate(urls):
         print("Relaunching driver...")
         driver.quit()
         time.sleep(random.randint(5, 10))
-        driver = randProxy()
+        driver = randIP()
     
     print(f'Part List ({i+1}/{len(urls)}): {url}')
     try:
