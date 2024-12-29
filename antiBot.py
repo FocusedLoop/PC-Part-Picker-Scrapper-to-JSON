@@ -23,8 +23,7 @@ def debugMonitors():
         print(info)
         print(f"{monitors[i].width}x{monitors[i].height}")
 
-def goToBox():
-    boxPos = {"TL":(820, 755), "BR":(855, 790)}
+def goToBox(boxPos):
     x = rand.randint(boxPos["TL"][0], boxPos["BR"][0])
     y = rand.randint(boxPos["TL"][1], boxPos["BR"][1])
     return x, y
@@ -43,18 +42,30 @@ def confirm():
     pyautogui.moveTo(driverMonitor.x+x, driverMonitor.y+new_y, duration=rand.uniform(*mouseSpeed))
     pyautogui.click()
 
-
-def passReCapture():
-    #debugMonitors()
-    x_pos, y_pos = goToBox()
-    print(x_pos, y_pos)
+def driveMouse(boxPos):
+    x_pos, y_pos = goToBox(boxPos)
+    #print(x_pos, y_pos)
     addnoise(250, 3)
     pyautogui.moveTo(driverMonitor.x+x_pos, driverMonitor.y+y_pos, duration=rand.uniform(*mouseSpeed))
     time.sleep(rand.uniform(0, 1))
     pyautogui.click()
+
+def passReCapture():
+    #debugMonitors()
+    boxPos = {"TL":(820, 755), "BR":(855, 790)}
+    driveMouse(boxPos)
     confirm()
     addnoise(1000, 1)
 
-# while True:
-#     time.sleep(3)
-#     passReCapture()
+def passCloudFlare():
+    boxPos = {"TL":(1265, 545), "BR":(1290, 580)}
+    driveMouse(boxPos)
+    addnoise(1000, 1)
+
+def testReCapture():
+    while True:
+        time.sleep(3)
+        #passReCapture()
+        passCloudFlare()
+
+#testReCapture()

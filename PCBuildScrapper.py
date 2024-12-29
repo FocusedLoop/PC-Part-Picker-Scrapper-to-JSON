@@ -1,16 +1,11 @@
 import json, time, random, os
 from bs4 import BeautifulSoup
 from scrap_part_list import Scraper
-from selenium.webdriver.chrome.service import Service
-import undetected_chromedriver as uc
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
+from antiBot import passCloudFlare
+from setIP import randIP
 
-from pcpartPickerDataFomat.setIP import randIP
-
-urlsFile = r"pcpartPickerDataFomat\buildURLS.txt"
-jsonFile = r"pcpartPickerDataFomat\pc_build_parts.json"
+urlsFile = r"C:\Users\Joshua\Desktop\vector_python_project\PCPartPickerScrapper\scrappedFiles\buildURLS.txt"
+jsonFile = r"C:\Users\Joshua\Desktop\vector_python_project\PCPartPickerScrapper\scrappedFiles\pc_build_parts.json"
 
 # Read urls
 with open(urlsFile, "r") as file:
@@ -27,8 +22,8 @@ else:
     lastBuild = 0
 
 # Reduce urls
-# Note - Converted urls: 0
-urlsAmount = 10
+# Note - Converted urls: 23
+urlsAmount = 500
 urls = urls[lastBuild:lastBuild+urlsAmount]
 attempts = 0
 
@@ -47,11 +42,16 @@ for i, url in enumerate(urls):
     
     print(f'Part List ({i+1}/{len(urls)}): {url}')
     try:
-        # Set url and wait for data to load
+        # Set url
         driver.get(url)
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "pageTitle build__name"))
-        )
+
+        # Solve CAPTCHA
+        if attempts == 0:
+            print("Solving CAPTCHA")
+            passCloudFlare()
+        
+        # Wait for data to load
+        time.sleep(random.randint(5, 7))
 
         html = driver.page_source
         soup = BeautifulSoup(html, "html.parser")
@@ -90,7 +90,7 @@ for i, url in enumerate(urls):
             "Name": name,
             "Part List": build_data,
             "Description": desc_text,
-        })
+            })
     except Exception as e:
         print("Parts missing, skipping build...")
         skippedBuild += 1

@@ -1,9 +1,6 @@
 import asyncio
 import concurrent.futures
-import math
 import re
-from typing import List
-from pypartpicker.regex import LIST_REGEX, PRODUCT_REGEX
 
 from bs4 import BeautifulSoup
 from functools import partial
@@ -13,6 +10,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
+LIST_REGEX = re.compile(
+    "((?:http|https)://(?:[a-z]{2}.)?pcpartpicker.com/(?:(?:list/(?:[a-zA-Z0-9]{6}))|(?:user/(?:[\\w]+)/saved/(?:[a-zA-Z0-9]{6}))))"
+)
+PRODUCT_REGEX = re.compile(
+    "((?:http|https)://(?:[a-z]{2}.)?pcpartpicker.com/product/(?:[a-zA-Z0-9]{6}))"
+)
 
 class Part:
     def __init__(self, **kwargs):
@@ -95,10 +98,6 @@ class Scraper:
         return re.search(LIST_REGEX, url_str)
 
     # Private Helper Function
-    # Uses a RegEx to check if the specified string matches the URL format of a valid product on PCPP
-    def __check_product_url(self, url_str):
-        return re.search(PRODUCT_REGEX, url_str)
-
     def fetch_list(self, list_url) -> PCPPList:
         # Ensure a valid pcpartpicker parts list was passed to the function
         if self.__check_list_url(list_url) is None:
