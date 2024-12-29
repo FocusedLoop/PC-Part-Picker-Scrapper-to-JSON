@@ -7,6 +7,12 @@ from setIP import randIP
 urlsFile = r"C:\Users\Joshua\Desktop\vector_python_project\PCPartPickerScrapper\scrappedFiles\buildURLS.txt"
 jsonFile = r"C:\Users\Joshua\Desktop\vector_python_project\PCPartPickerScrapper\scrappedFiles\pc_build_parts.json"
 
+# Save files
+def saveBuilds(file):
+    with open(jsonFile, "w") as file:
+        file.extend(builds)
+        json.dump(previousFile, file, indent=4)
+
 # Read urls
 with open(urlsFile, "r") as file:
     urls = [line.strip() for line in file.readlines()]
@@ -37,6 +43,7 @@ for i, url in enumerate(urls):
     if attempts > 0 and attempts % random.randint(20, 50) == 0:
         print("Relaunching driver...")
         driver.quit()
+        saveBuilds(previousFile)
         time.sleep(random.randint(5, 10))
         driver = randIP()
     
@@ -97,10 +104,7 @@ for i, url in enumerate(urls):
     attempts += 1
 driver.quit()
 
-with open(jsonFile, "w") as file:
-    previousFile.extend(builds)
-    json.dump(previousFile, file, indent=4)
-
+saveBuilds(previousFile)
 print(f"{len(urls)} PC Builds scrapped")
 print(f"{len(urls) - skippedBuild} PC Builds converted to json")
 print(f"{skippedBuild} PC Builds skipped")
