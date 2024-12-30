@@ -20,15 +20,24 @@ def driverSetup(ip):
     return driver
 
 def randIP():
-    #normal_path = r"C:\Users\Joshua\Desktop\vector_python_project\PCPartPickerScrapper"
-    nordvpn_path = r"C:\Program Files\NordVPN"
-    city = random.choice(["Brisbane", "Sydney", "Melbourne", "Adelaide", "Perth"])
-    os.chdir(nordvpn_path)
-    subprocess.Popen(f"NordVPN {city} -d", shell=True)
-    time.sleep(5)
-    subprocess.Popen(f"NordVPN {city} -c", shell=True)
-    time.sleep(5)
-    findIP = requests.get("https://api.ipify.org?format=json")
-    ip = findIP.json().get("ip")
-    #os.chdir(normal_path)
+    goodIP = False
+    retrys = 0
+    while goodIP == False:
+        nordvpn_path = r"C:\Program Files\NordVPN"
+        city = random.choice(["Brisbane", "Sydney", "Melbourne", "Adelaide", "Perth"])
+        os.chdir(nordvpn_path)
+        subprocess.Popen(f"NordVPN {city} -d", shell=True)
+        time.sleep(5)
+        subprocess.Popen(f"NordVPN {city} -c", shell=True)
+        time.sleep(5)
+        try:
+            
+            findIP = requests.get("https://api.ipify.org?format=json", timeout=10)
+            findIP.raise_for_status()
+            ip = findIP.json()["ip"]
+            goodIP = True
+        except ConnectionError:
+            retrys += 1
+            print(f"Bad IP found trying new one...\nBad IPs: {retrys}")
+
     return driverSetup(ip)
