@@ -1,10 +1,12 @@
 import time, requests, os, random
 from selenium.webdriver.chrome.service import Service
+from requests.exceptions import ConnectionError
 import undetected_chromedriver as uc
 import subprocess
 
 chromePath = r"C:\chromedriver-win64\chromedriver.exe"
 chromeData = r"C:\Users\Joshua\AppData\Local\Google\Chrome\User Data"
+nordvpn_path = r"C:\Program Files\NordVPN"
 
 def driverSetup(ip):
     print(f"Changing proxy to {ip}")
@@ -22,10 +24,9 @@ def driverSetup(ip):
 def randIP():
     goodIP = False
     retrys = 0
+    os.chdir(nordvpn_path)
     while goodIP == False:
-        nordvpn_path = r"C:\Program Files\NordVPN"
         city = random.choice(["Brisbane", "Sydney", "Melbourne", "Adelaide", "Perth"])
-        os.chdir(nordvpn_path)
         subprocess.Popen(f"NordVPN {city} -d", shell=True)
         time.sleep(5)
         subprocess.Popen(f"NordVPN {city} -c", shell=True)
