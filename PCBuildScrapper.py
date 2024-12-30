@@ -4,14 +4,14 @@ from scrap_part_list import Scraper
 from antiBot import passCloudFlare
 from setIP import randIP
 
-urlsFile = r"C:\Users\Joshua\Desktop\vector_python_project\PCPartPickerScrapper\scrappedFiles\buildURLS.txt"
-jsonFile = r"C:\Users\Joshua\Desktop\vector_python_project\PCPartPickerScrapper\scrappedFiles\pc_build_parts.json"
+urlsFile = r"C:\Users\joshu\OneDrive\Desktop\temp_python_workspace\bot\scrappedFiles\buildURLS.txt"
+jsonFile = r"C:\Users\joshu\OneDrive\Desktop\temp_python_workspace\bot\scrappedFiles\pc_build_parts.json"
 
 # Save files
-def saveBuilds(file):
-    with open(jsonFile, "w") as file:
-        file.extend(builds)
-        json.dump(previousFile, file, indent=4)
+def saveBuilds(existing_data, new_builds):
+    existing_data.extend(new_builds)
+    with open(jsonFile, "w") as f:
+        json.dump(existing_data, f, indent=4)
 
 # Read urls
 with open(urlsFile, "r") as file:
@@ -28,7 +28,7 @@ else:
     lastBuild = 0
 
 # Reduce urls
-# Note - Converted urls: 23
+# Note - Converted urls: 53
 urlsAmount = 500
 urls = urls[lastBuild:lastBuild+urlsAmount]
 attempts = 0
@@ -42,8 +42,8 @@ for i, url in enumerate(urls):
     # Relaunch driver every 20 to 50 urls
     if attempts > 0 and attempts % random.randint(20, 50) == 0:
         print("Relaunching driver...")
+        saveBuilds(previousFile, builds)
         driver.quit()
-        saveBuilds(previousFile)
         time.sleep(random.randint(5, 10))
         driver = randIP()
     
@@ -104,7 +104,7 @@ for i, url in enumerate(urls):
     attempts += 1
 driver.quit()
 
-saveBuilds(previousFile)
+saveBuilds(previousFile, builds)
 print(f"{len(urls)} PC Builds scrapped")
 print(f"{len(urls) - skippedBuild} PC Builds converted to json")
 print(f"{skippedBuild} PC Builds skipped")

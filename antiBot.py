@@ -55,12 +55,12 @@ def passReCapture():
     boxPos = {"TL":(820, 755), "BR":(855, 790)}
     driveMouse(boxPos)
     confirm()
-    addnoise(1000, 1)
+    addnoise(500, 1)
 
 def passCloudFlare():
-    boxPos = {"TL":(1265, 545), "BR":(1290, 580)}
+    boxPos = {"TL":(305, 545), "BR":(335, 580)}
     driveMouse(boxPos)
-    addnoise(1000, 1)
+    addnoise(500, 1)
 
 def testReCapture():
     while True:

@@ -20,7 +20,7 @@ def driverSetup(ip):
     return driver
 
 def randIP():
-    normal_path = r"C:\Users\Joshua\Desktop\vector_python_project\PCPartPickerScrapper"
+    #normal_path = r"C:\Users\Joshua\Desktop\vector_python_project\PCPartPickerScrapper"
     nordvpn_path = r"C:\Program Files\NordVPN"
     city = random.choice(["Brisbane", "Sydney", "Melbourne", "Adelaide", "Perth"])
     os.chdir(nordvpn_path)
@@ -30,5 +30,5 @@ def randIP():
     time.sleep(5)
     findIP = requests.get("https://api.ipify.org?format=json")
     ip = findIP.json().get("ip")
-    os.chdir(normal_path)
+    #os.chdir(normal_path)
     return driverSetup(ip)

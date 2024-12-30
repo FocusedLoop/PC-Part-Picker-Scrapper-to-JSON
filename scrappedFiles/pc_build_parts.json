@@ -1846,5 +1846,3137 @@
         "Description": [
             "Home PC"
         ]
+    },
+    {
+        "Build": 23,
+        "Name": "Super Supercool Core Ultra 9 285K",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "Intel Core Ultra 9 285K 3.7 GHz 24-Core Processor",
+                    "Price": "$1098.00",
+                    "URL": "https://au.pcpartpicker.com/product/VHYRsY/intel-core-ultra-9-285k-37-ghz-24-core-processor-bx80768285k"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "Asus ROG MAXIMUS Z890 EXTREME EATX LGA1851 Motherboard",
+                    "Price": "$1599.00",
+                    "URL": "https://au.pcpartpicker.com/product/gmyH99/asus-rog-maximus-z890-extreme-eatx-lga1851-motherboard-rog-maximus-z890-extreme"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Addlink A95 4 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/PbgFf7/addlink-a95-4-tb-m2-2280-nvme-solid-state-drive-ad4tba95m2p"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Crucial T700 4 TB M.2-2280 PCIe 5.0 X4 NVME Solid State Drive",
+                    "Price": "$669.00",
+                    "URL": "https://au.pcpartpicker.com/product/xhkH99/crucial-t700-4-tb-m2-2280-pcie-50-x4-nvme-solid-state-drive-ct4000t700ssd3"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "NVIDIA Founders Edition GeForce RTX 4090 24 GB Video Card",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/BCGbt6/nvidia-founders-edition-geforce-rtx-4090-24-gb-video-card-900-1g136-2530-000"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Lian Li O11 Dynamic EVO XL ATX Full Tower Case",
+                    "Price": "$258.20 USD",
+                    "URL": "https://au.pcpartpicker.com/product/jwDQzy/lian-li-o11-dynamic-evo-xl-atx-full-tower-case-o11dexl-x"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Lian-Li O1\u200b1DEXL-1X U\u200bpright GPU\u200b Bracket U\u200bpgrade Kit\u200b for 40 se\u200bries GPU",
+                    "Price": "                                    $6.99 USD\n                                ",
+                    "URL": "https://au.pcpartpicker.com#view_custom_part"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Phanteks R\u200bevolt 1600\u200bW 80PLUS T\u200bitanium, A\u200bTX 3.0, PC\u200bIe 5.0, Fu\u200blly Modula\u200br",
+                    "Price": "                                    $399.99 USD\n                                ",
+                    "URL": "https://au.pcpartpicker.com#view_custom_part"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Phanteks P\u200bH-CBKT-G5S\u200b_BK01 Revo\u200blt Cable K\u200bit, PCIe G\u200ben5",
+                    "Price": "                                    $78.37 USD\n                                ",
+                    "URL": "https://au.pcpartpicker.com#view_custom_part"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 11 Pro OEM - DVD 64-bit",
+                    "Price": "$229.00",
+                    "URL": "https://au.pcpartpicker.com/product/yjbTwP/microsoft-windows-11-pro-oem-dvd-64-bit-fqc-10529"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 120 D-RGB 77 CFM 120 mm Fan",
+                    "Price": "$35.00",
+                    "URL": "https://au.pcpartpicker.com/product/HmLdnQ/ek-loop-fan-fpt-120-d-rgb-77-cfm-120-mm-fan-ek-loop-fpt-120-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 120 D-RGB 77 CFM 120 mm Fan",
+                    "Price": "$35.00",
+                    "URL": "https://au.pcpartpicker.com/product/HmLdnQ/ek-loop-fan-fpt-120-d-rgb-77-cfm-120-mm-fan-ek-loop-fpt-120-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 120 D-RGB 77 CFM 120 mm Fan",
+                    "Price": "$35.00",
+                    "URL": "https://au.pcpartpicker.com/product/HmLdnQ/ek-loop-fan-fpt-120-d-rgb-77-cfm-120-mm-fan-ek-loop-fpt-120-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 120 D-RGB 77 CFM 120 mm Fan",
+                    "Price": "$35.00",
+                    "URL": "https://au.pcpartpicker.com/product/HmLdnQ/ek-loop-fan-fpt-120-d-rgb-77-cfm-120-mm-fan-ek-loop-fpt-120-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 120 D-RGB 77 CFM 120 mm Fan",
+                    "Price": "$35.00",
+                    "URL": "https://au.pcpartpicker.com/product/HmLdnQ/ek-loop-fan-fpt-120-d-rgb-77-cfm-120-mm-fan-ek-loop-fpt-120-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 140 D-RGB 118.01 CFM 140 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/gMFmP6/ek-loop-fan-fpt-140-d-rgb-11801-cfm-140-mm-fan-ek-loop-fpt-140-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 140 D-RGB 118.01 CFM 140 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/gMFmP6/ek-loop-fan-fpt-140-d-rgb-11801-cfm-140-mm-fan-ek-loop-fpt-140-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 140 D-RGB 118.01 CFM 140 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/gMFmP6/ek-loop-fan-fpt-140-d-rgb-11801-cfm-140-mm-fan-ek-loop-fpt-140-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 140 D-RGB 118.01 CFM 140 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/gMFmP6/ek-loop-fan-fpt-140-d-rgb-11801-cfm-140-mm-fan-ek-loop-fpt-140-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 140 D-RGB 118.01 CFM 140 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/gMFmP6/ek-loop-fan-fpt-140-d-rgb-11801-cfm-140-mm-fan-ek-loop-fpt-140-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 140 D-RGB 118.01 CFM 140 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/gMFmP6/ek-loop-fan-fpt-140-d-rgb-11801-cfm-140-mm-fan-ek-loop-fpt-140-drgb-bk"
+                },
+                {
+                    "Type": "Keyboard",
+                    "Name": "Corsair K100 AIR Wireless RGB Bluetooth/Wireless/Wired Gaming Keyboard",
+                    "Price": "$337.99",
+                    "URL": "https://au.pcpartpicker.com/product/Zs92FT/corsair-k100-air-wireless-rgb-bluetoothwirelesswired-gaming-keyboard-ch-913a01u-na"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "Team XTREEM 48GB (2 x 24GB) DDR5 8800 (PC5 70400) Desktop memory...",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/Cs6NnQ/placeholder"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "Team XTREEM 48GB (2 x 24GB) DDR5 8800 (PC5 70400) Desktop memory...",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/Cs6NnQ/placeholder"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "                                                                    \tLIAN LI P\u200br\u200bemium PC\u200bI-\u200bE 16X 4\u200b.0 \u200bBlack \u200bExte\u200bnder \u200bRiser\u200b Cab\u200ble 900\u200bmm \u200bBLACK                                                            ",
+                    "Price": "                                    $89.99 USD\n                                ",
+                    "URL": null
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "                                                                    Hardware L\u200babs Black \u200bIce Nemesi\u200bs 420GTX                                                            ",
+                    "Price": "                                    $144.00 USD\n                                ",
+                    "URL": null
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "                                                                    Granzon Di\u200bgital Disp\u200blay Pump a\u200bnd Reservo\u200bir                                                            ",
+                    "Price": "                                    $203.00 USD\n                                ",
+                    "URL": null
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "                                                                    Granzon In\u200btegrated P\u200bump Radiat\u200bor AIO                                                            ",
+                    "Price": "                                    $316.00 USD\n                                ",
+                    "URL": null
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "                                                                    SuperCool \u200bDirect Die\u200b Gen 14 Fu\u200bll Copper                                                            ",
+                    "Price": "                                    $156.00 USD\n                                ",
+                    "URL": null
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "                                                                    EK Soft Tu\u200bbe 12/16mm\u200b 3m - Blac\u200bk                                                            ",
+                    "Price": "                                    $22.00 USD\n                                ",
+                    "URL": null
+                }
+            ],
+            "Total": "$4107.99"
+        },
+        "Description": [
+            "As an early adopter of the Z890 platform, 285K has been my daily driver since its launch back in October. Previously, I was a Z790 14900KS guy (SP108 P122 E81 MC86). 14KS was a ton of fun, but 285K is bae now.",
+            "These are the top 4 things I love about Core Ultra 9 285K:",
+            "Runs Super Cool (delid not necessary at all) - 14KS is a hot head, even direct-die on water it doesn't take much to get temps agitated. 285K on the other hand is cool as can be. My rig is literally 99% silent under operation because it consumes a lot less power which translates to nice cool temps. Even during max 4K gaming or full production tasks, my fans/pumps RARELY ramp up. I love it and it's hands-down one of my favorite things about Arrow Lake. Take a peek at the core temps and power draw in my screenshots. With the same hardware and 4K settings, my direct-die cooled 14KS core temps were 20c-30c higher.",
+            "Far Lower Power Consumption Than Previous Gen - I'm not a stickler about power, but as mentioned above, the difference is very significant. With 285K I can play the same games I played with 14KS using half the amount of power and side by side I can't tell a difference in gameplay.  You can use just about any cooler you want for this thing and that opens up the door for a lot of options.",
+            "CUDIMM Memory At 9000MHz Boots on XMP 2 With Zero Tuning! (***2 Dimms) - I haven't gotten heavy into overclocking ram yet and with CUDIMM on Z890 it looks like I'll never have to because every 8800Mhz kit I've tried can boot 9000Mhz+ XMP 2, with no tuning on this 4 dimm board. I was able to boot 9100MHz, but it wasn't stable, but with zero tuning it's still impressive. I definitely couldn't boot 9000MHz on XMP 2 with my 14KS. I daily drive now with stock XMP 2 settings @ 8800Mhz.",
+            "Sexy Z890 Motherboards - Obviously personal preference, but I love the new Z890 boards and they come with a lot of great features. Pick your poison."
+        ]
+    },
+    {
+        "Build": 24,
+        "Name": "CUB",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "Intel Core i9-9900KF 3.6 GHz 8-Core Processor",
+                    "Price": "$544.46",
+                    "URL": "https://au.pcpartpicker.com/product/G7KcCJ/intel-core-i9-9900kf-36-ghz-8-core-processor-bx80684i99900kf"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "ARCTIC Freezer 34 eSports DUO CPU Cooler",
+                    "Price": "$104.27",
+                    "URL": "https://au.pcpartpicker.com/product/dmXnTW/arctic-freezer-34-esports-duo-cpu-cooler-acfre00060a"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "Asus PRIME Z390-A ATX LGA1151 Motherboard",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/2k3H99/asus-prime-z390-a-atx-lga1151-motherboard-prime-z390-a"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Kingston HyperX Fury 32 GB (2 x 16 GB) DDR4-3200 CL16 Memory",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/LxVG3C/kingston-hyperx-fury-32-gb-2-x-16-gb-ddr4-3200-memory-hx432c16fb3k232"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Crucial M500 240 GB 2.5\" Solid State Drive",
+                    "Price": "$139.00",
+                    "URL": "https://au.pcpartpicker.com/product/vfqdnQ/crucial-internal-hard-drive-ct240m500ssd1"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Western Digital Black SN770 1 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$128.94",
+                    "URL": "https://au.pcpartpicker.com/product/YVytt6/western-digital-1-tb-m2-2280-nvme-solid-state-drive-wds100t3x0e"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "Asus ROG STRIX GeForce GTX 1080 8 GB Video Card",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/v34NnQ/asus-geforce-gtx-1080-8gb-rog-strix-video-card-rog-strix-gtx1080-a8g-gaming"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Phanteks Eclipse P300 ATX Mid Tower Case",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/ptKcCJ/phanteks-p300-tempered-glass-blackred-atx-mid-tower-case-ph-ec300ptg_br"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Corsair TX850M Gold 850 W 80+ Gold Certified Semi-modular ATX Power Supply",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/vfBrxr/corsair-tx850m-gold-850-w-80-gold-certified-semi-modular-atx-power-supply-cp-9020130-na"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 10 Pro Retail - USB 32/64-bit",
+                    "Price": "$218.25",
+                    "URL": "https://au.pcpartpicker.com/product/M9GnTW/microsoft-windows-10-pro-retail-usb-3264-bit-hav-00059"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "be quiet! Pure Wings 2 87 CFM 120 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/M6vZxr/be-quiet-pure-wings-2-120-870-cfm-120mm-fan-bl039"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "be quiet! Pure Wings 2 87 CFM 120 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/M6vZxr/be-quiet-pure-wings-2-120-870-cfm-120mm-fan-bl039"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "Dell P2212H 21.5\" 1920 x 1080 60 Hz Monitor",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/hKjG3C/dell-monitor-4691623"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "Asus ROG SWIFT PG248Q 24.0\" 1920 x 1080 180 Hz Monitor",
+                    "Price": "$499.00",
+                    "URL": "https://au.pcpartpicker.com/product/pHGj4D/asus-rog-swift-pg248q-240-180hz-monitor-rog-swift-pg248q"
+                },
+                {
+                    "Type": "Keyboard",
+                    "Name": "Akko 5087S Shine-Through RGB Wired Standard Keyboard",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/pf3gXL/akko-5087s-shine-through-rgb-wired-standard-keyboard-6925758619479"
+                },
+                {
+                    "Type": "Mouse",
+                    "Name": "\u200eDREAM MACHINES DM1 FPS Wired Optical Mouse",
+                    "Price": "$86.96",
+                    "URL": "https://au.pcpartpicker.com/product/WyqPxr/dream-machines-dm1-fps-wired-optical-mouse-dm1fps_blackmatte"
+                },
+                {
+                    "Type": "Headphones",
+                    "Name": "Philips Fidelio X2HR/00  Headphones",
+                    "Price": "$183.20",
+                    "URL": "https://au.pcpartpicker.com/product/DZ3mP6/philips-fidelio-x2hr00-headphones-x2hr00"
+                }
+            ],
+            "Total": "$1904.08"
+        },
+        "Description": [
+            "Currently Using Build 2024-12-13"
+        ]
+    },
+    {
+        "Build": 25,
+        "Name": "Hydaelyn",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 5 7600 3.8 GHz 6-Core Processor",
+                    "Price": "$229.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/yXmmP6/amd-ryzen-5-7600-38-ghz-6-core-processor-100-100001015box"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Thermalright Peerless Assassin 66.17 CFM CPU Cooler",
+                    "Price": "$36.90 USD",
+                    "URL": "https://au.pcpartpicker.com/product/CwqPxr/thermalright-peerless-assassin-6617-cfm-cpu-cooler-peerless-assassin-120"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "ASRock B650I Lightning Wifi Mini ITX AM5 Motherboard",
+                    "Price": "$199.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/rVfxFT/asrock-b650i-lightning-wifi-mini-itx-am5-motherboard-b650i-lightning-wifi"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "G.Skill Ripjaws S5 32 GB (2 x 16 GB) DDR5-6000 CL30 Memory",
+                    "Price": "$113.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/RdhFf7/gskill-ripjaws-s5-32-gb-2-x-16-gb-ddr5-6000-cl30-memory-f5-6000j3040f16ga2-rs5k"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "XFX Speedster SWFT 210 Core Radeon RX 7700 XT 12 GB Video Card",
+                    "Price": "$379.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/97kH99/xfx-speedster-swft-210-core-radeon-rx-7700-xt-12-gb-video-card-rx-77tswftfp"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Fractal Design Define Nano S Mini ITX Desktop Case",
+                    "Price": "$0.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/7d98TW/fractal-design-case-fdcadefnanosbk"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "EVGA SuperNOVA 750 GM 750 W 80+ Gold Certified Fully Modular SFX Power Supply",
+                    "Price": "$134.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/HwYmP6/evga-supernova-750-gm-750-w-80-gold-certified-fully-modular-sfx-power-supply-123-gm-0750-x1"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Noctua P14s redux-1200 PWM 64.92 CFM 140 mm Fan",
+                    "Price": "$16.95 USD",
+                    "URL": "https://au.pcpartpicker.com/product/xs6BD3/noctua-case-fan-nfp14sredux1200pwm"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Noctua P14s redux-1200 PWM 64.92 CFM 140 mm Fan",
+                    "Price": "$16.95 USD",
+                    "URL": "https://au.pcpartpicker.com/product/xs6BD3/noctua-case-fan-nfp14sredux1200pwm"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Noctua P12 redux-1700 PWM 70.75 CFM 120 mm Fan",
+                    "Price": "$15.95 USD",
+                    "URL": "https://au.pcpartpicker.com/product/VNBTwP/noctua-nf-p12-redux-1700-pwm-708-cfm-120mm-fan-nf-p12-redux-1700-pwm"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Noctua P12 redux-1700 PWM 70.75 CFM 120 mm Fan",
+                    "Price": "$15.95 USD",
+                    "URL": "https://au.pcpartpicker.com/product/VNBTwP/noctua-nf-p12-redux-1700-pwm-708-cfm-120mm-fan-nf-p12-redux-1700-pwm"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "SilverStone Technology Universal ATX to SFX Power Supply Bracket RL-PP08B",
+                    "Price": "$12.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/QL98TW/silverstone-technology-universal-atx-to-sfx-power-supply-bracket-rl-pp08b"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "PSU Sleeved Cable, Fiber Braided ATX EPS PCI-E White Cable Extension Kit with Combs for Modular Power Supply 30CM",
+                    "Price": "$14.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/fJQfrH"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "Graphics Card GPU Brace Support, Video Card Sag Holder Bracket, GPU Stand",
+                    "Price": "$9.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/zrWzK8/placeholder"
+                }
+            ],
+            "Total": "$1195.66 USD"
+        },
+        "Description": [
+            "A 1080p gaming rig built over a year, everything save for the case and storage were replaced from my previous i7-7700/GTX1070 system.",
+            "To allow for a larger graphics card, I moved to an sfx power supply. The included power supply cables were too short so I picked up the cheapest extensions I could lazily find.",
+            "No major problems with assembly, but space is a bit tight with all the cables in the back. Will eventually upgrade the HDD to an M.2 and free up some space.",
+            "Swapped the Nano S power led to white. Hard to see in the photo, but I think it fits the case better than blue.",
+            "Haven't manually tuned anything, but I am using Precision Boost Overdrive and the auto gpu undervolt option in the AMD Adrenalin software. Testing some of the most demanding games I have (Dragon's Dogma 2, Space Marine 2 and Remnant 2) temps stay low."
+        ]
+    },
+    {
+        "Build": 23,
+        "Name": "Super Supercool Core Ultra 9 285K",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "Intel Core Ultra 9 285K 3.7 GHz 24-Core Processor",
+                    "Price": "$1098.00",
+                    "URL": "https://au.pcpartpicker.com/product/VHYRsY/intel-core-ultra-9-285k-37-ghz-24-core-processor-bx80768285k"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "Asus ROG MAXIMUS Z890 EXTREME EATX LGA1851 Motherboard",
+                    "Price": "$1599.00",
+                    "URL": "https://au.pcpartpicker.com/product/gmyH99/asus-rog-maximus-z890-extreme-eatx-lga1851-motherboard-rog-maximus-z890-extreme"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Addlink A95 4 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/PbgFf7/addlink-a95-4-tb-m2-2280-nvme-solid-state-drive-ad4tba95m2p"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Crucial T700 4 TB M.2-2280 PCIe 5.0 X4 NVME Solid State Drive",
+                    "Price": "$669.00",
+                    "URL": "https://au.pcpartpicker.com/product/xhkH99/crucial-t700-4-tb-m2-2280-pcie-50-x4-nvme-solid-state-drive-ct4000t700ssd3"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "NVIDIA Founders Edition GeForce RTX 4090 24 GB Video Card",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/BCGbt6/nvidia-founders-edition-geforce-rtx-4090-24-gb-video-card-900-1g136-2530-000"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Lian Li O11 Dynamic EVO XL ATX Full Tower Case",
+                    "Price": "$258.20 USD",
+                    "URL": "https://au.pcpartpicker.com/product/jwDQzy/lian-li-o11-dynamic-evo-xl-atx-full-tower-case-o11dexl-x"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Lian-Li O1\u200b1DEXL-1X U\u200bpright GPU\u200b Bracket U\u200bpgrade Kit\u200b for 40 se\u200bries GPU",
+                    "Price": "                                    $6.99 USD\n                                ",
+                    "URL": "https://au.pcpartpicker.com#view_custom_part"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Phanteks R\u200bevolt 1600\u200bW 80PLUS T\u200bitanium, A\u200bTX 3.0, PC\u200bIe 5.0, Fu\u200blly Modula\u200br",
+                    "Price": "                                    $399.99 USD\n                                ",
+                    "URL": "https://au.pcpartpicker.com#view_custom_part"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Phanteks P\u200bH-CBKT-G5S\u200b_BK01 Revo\u200blt Cable K\u200bit, PCIe G\u200ben5",
+                    "Price": "                                    $78.37 USD\n                                ",
+                    "URL": "https://au.pcpartpicker.com#view_custom_part"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 11 Pro OEM - DVD 64-bit",
+                    "Price": "$229.00",
+                    "URL": "https://au.pcpartpicker.com/product/yjbTwP/microsoft-windows-11-pro-oem-dvd-64-bit-fqc-10529"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 120 D-RGB 77 CFM 120 mm Fan",
+                    "Price": "$35.00",
+                    "URL": "https://au.pcpartpicker.com/product/HmLdnQ/ek-loop-fan-fpt-120-d-rgb-77-cfm-120-mm-fan-ek-loop-fpt-120-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 120 D-RGB 77 CFM 120 mm Fan",
+                    "Price": "$35.00",
+                    "URL": "https://au.pcpartpicker.com/product/HmLdnQ/ek-loop-fan-fpt-120-d-rgb-77-cfm-120-mm-fan-ek-loop-fpt-120-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 120 D-RGB 77 CFM 120 mm Fan",
+                    "Price": "$35.00",
+                    "URL": "https://au.pcpartpicker.com/product/HmLdnQ/ek-loop-fan-fpt-120-d-rgb-77-cfm-120-mm-fan-ek-loop-fpt-120-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 120 D-RGB 77 CFM 120 mm Fan",
+                    "Price": "$35.00",
+                    "URL": "https://au.pcpartpicker.com/product/HmLdnQ/ek-loop-fan-fpt-120-d-rgb-77-cfm-120-mm-fan-ek-loop-fpt-120-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 120 D-RGB 77 CFM 120 mm Fan",
+                    "Price": "$35.00",
+                    "URL": "https://au.pcpartpicker.com/product/HmLdnQ/ek-loop-fan-fpt-120-d-rgb-77-cfm-120-mm-fan-ek-loop-fpt-120-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 140 D-RGB 118.01 CFM 140 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/gMFmP6/ek-loop-fan-fpt-140-d-rgb-11801-cfm-140-mm-fan-ek-loop-fpt-140-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 140 D-RGB 118.01 CFM 140 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/gMFmP6/ek-loop-fan-fpt-140-d-rgb-11801-cfm-140-mm-fan-ek-loop-fpt-140-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 140 D-RGB 118.01 CFM 140 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/gMFmP6/ek-loop-fan-fpt-140-d-rgb-11801-cfm-140-mm-fan-ek-loop-fpt-140-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 140 D-RGB 118.01 CFM 140 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/gMFmP6/ek-loop-fan-fpt-140-d-rgb-11801-cfm-140-mm-fan-ek-loop-fpt-140-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 140 D-RGB 118.01 CFM 140 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/gMFmP6/ek-loop-fan-fpt-140-d-rgb-11801-cfm-140-mm-fan-ek-loop-fpt-140-drgb-bk"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "EK Loop Fan FPT 140 D-RGB 118.01 CFM 140 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/gMFmP6/ek-loop-fan-fpt-140-d-rgb-11801-cfm-140-mm-fan-ek-loop-fpt-140-drgb-bk"
+                },
+                {
+                    "Type": "Keyboard",
+                    "Name": "Corsair K100 AIR Wireless RGB Bluetooth/Wireless/Wired Gaming Keyboard",
+                    "Price": "$337.99",
+                    "URL": "https://au.pcpartpicker.com/product/Zs92FT/corsair-k100-air-wireless-rgb-bluetoothwirelesswired-gaming-keyboard-ch-913a01u-na"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "Team XTREEM 48GB (2 x 24GB) DDR5 8800 (PC5 70400) Desktop memory...",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/Cs6NnQ/placeholder"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "Team XTREEM 48GB (2 x 24GB) DDR5 8800 (PC5 70400) Desktop memory...",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/Cs6NnQ/placeholder"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "                                                                    \tLIAN LI P\u200br\u200bemium PC\u200bI-\u200bE 16X 4\u200b.0 \u200bBlack \u200bExte\u200bnder \u200bRiser\u200b Cab\u200ble 900\u200bmm \u200bBLACK                                                            ",
+                    "Price": "                                    $89.99 USD\n                                ",
+                    "URL": null
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "                                                                    Hardware L\u200babs Black \u200bIce Nemesi\u200bs 420GTX                                                            ",
+                    "Price": "                                    $144.00 USD\n                                ",
+                    "URL": null
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "                                                                    Granzon Di\u200bgital Disp\u200blay Pump a\u200bnd Reservo\u200bir                                                            ",
+                    "Price": "                                    $203.00 USD\n                                ",
+                    "URL": null
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "                                                                    Granzon In\u200btegrated P\u200bump Radiat\u200bor AIO                                                            ",
+                    "Price": "                                    $316.00 USD\n                                ",
+                    "URL": null
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "                                                                    SuperCool \u200bDirect Die\u200b Gen 14 Fu\u200bll Copper                                                            ",
+                    "Price": "                                    $156.00 USD\n                                ",
+                    "URL": null
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "                                                                    EK Soft Tu\u200bbe 12/16mm\u200b 3m - Blac\u200bk                                                            ",
+                    "Price": "                                    $22.00 USD\n                                ",
+                    "URL": null
+                }
+            ],
+            "Total": "$4107.99"
+        },
+        "Description": [
+            "As an early adopter of the Z890 platform, 285K has been my daily driver since its launch back in October. Previously, I was a Z790 14900KS guy (SP108 P122 E81 MC86). 14KS was a ton of fun, but 285K is bae now.",
+            "These are the top 4 things I love about Core Ultra 9 285K:",
+            "Runs Super Cool (delid not necessary at all) - 14KS is a hot head, even direct-die on water it doesn't take much to get temps agitated. 285K on the other hand is cool as can be. My rig is literally 99% silent under operation because it consumes a lot less power which translates to nice cool temps. Even during max 4K gaming or full production tasks, my fans/pumps RARELY ramp up. I love it and it's hands-down one of my favorite things about Arrow Lake. Take a peek at the core temps and power draw in my screenshots. With the same hardware and 4K settings, my direct-die cooled 14KS core temps were 20c-30c higher.",
+            "Far Lower Power Consumption Than Previous Gen - I'm not a stickler about power, but as mentioned above, the difference is very significant. With 285K I can play the same games I played with 14KS using half the amount of power and side by side I can't tell a difference in gameplay.  You can use just about any cooler you want for this thing and that opens up the door for a lot of options.",
+            "CUDIMM Memory At 9000MHz Boots on XMP 2 With Zero Tuning! (***2 Dimms) - I haven't gotten heavy into overclocking ram yet and with CUDIMM on Z890 it looks like I'll never have to because every 8800Mhz kit I've tried can boot 9000Mhz+ XMP 2, with no tuning on this 4 dimm board. I was able to boot 9100MHz, but it wasn't stable, but with zero tuning it's still impressive. I definitely couldn't boot 9000MHz on XMP 2 with my 14KS. I daily drive now with stock XMP 2 settings @ 8800Mhz.",
+            "Sexy Z890 Motherboards - Obviously personal preference, but I love the new Z890 boards and they come with a lot of great features. Pick your poison."
+        ]
+    },
+    {
+        "Build": 24,
+        "Name": "CUB",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "Intel Core i9-9900KF 3.6 GHz 8-Core Processor",
+                    "Price": "$544.46",
+                    "URL": "https://au.pcpartpicker.com/product/G7KcCJ/intel-core-i9-9900kf-36-ghz-8-core-processor-bx80684i99900kf"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "ARCTIC Freezer 34 eSports DUO CPU Cooler",
+                    "Price": "$104.27",
+                    "URL": "https://au.pcpartpicker.com/product/dmXnTW/arctic-freezer-34-esports-duo-cpu-cooler-acfre00060a"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "Asus PRIME Z390-A ATX LGA1151 Motherboard",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/2k3H99/asus-prime-z390-a-atx-lga1151-motherboard-prime-z390-a"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Kingston HyperX Fury 32 GB (2 x 16 GB) DDR4-3200 CL16 Memory",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/LxVG3C/kingston-hyperx-fury-32-gb-2-x-16-gb-ddr4-3200-memory-hx432c16fb3k232"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Crucial M500 240 GB 2.5\" Solid State Drive",
+                    "Price": "$139.00",
+                    "URL": "https://au.pcpartpicker.com/product/vfqdnQ/crucial-internal-hard-drive-ct240m500ssd1"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Western Digital Black SN770 1 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$128.94",
+                    "URL": "https://au.pcpartpicker.com/product/YVytt6/western-digital-1-tb-m2-2280-nvme-solid-state-drive-wds100t3x0e"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "Asus ROG STRIX GeForce GTX 1080 8 GB Video Card",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/v34NnQ/asus-geforce-gtx-1080-8gb-rog-strix-video-card-rog-strix-gtx1080-a8g-gaming"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Phanteks Eclipse P300 ATX Mid Tower Case",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/ptKcCJ/phanteks-p300-tempered-glass-blackred-atx-mid-tower-case-ph-ec300ptg_br"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Corsair TX850M Gold 850 W 80+ Gold Certified Semi-modular ATX Power Supply",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/vfBrxr/corsair-tx850m-gold-850-w-80-gold-certified-semi-modular-atx-power-supply-cp-9020130-na"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 10 Pro Retail - USB 32/64-bit",
+                    "Price": "$218.25",
+                    "URL": "https://au.pcpartpicker.com/product/M9GnTW/microsoft-windows-10-pro-retail-usb-3264-bit-hav-00059"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "be quiet! Pure Wings 2 87 CFM 120 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/M6vZxr/be-quiet-pure-wings-2-120-870-cfm-120mm-fan-bl039"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "be quiet! Pure Wings 2 87 CFM 120 mm Fan",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/M6vZxr/be-quiet-pure-wings-2-120-870-cfm-120mm-fan-bl039"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "Dell P2212H 21.5\" 1920 x 1080 60 Hz Monitor",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/hKjG3C/dell-monitor-4691623"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "Asus ROG SWIFT PG248Q 24.0\" 1920 x 1080 180 Hz Monitor",
+                    "Price": "$499.00",
+                    "URL": "https://au.pcpartpicker.com/product/pHGj4D/asus-rog-swift-pg248q-240-180hz-monitor-rog-swift-pg248q"
+                },
+                {
+                    "Type": "Keyboard",
+                    "Name": "Akko 5087S Shine-Through RGB Wired Standard Keyboard",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/pf3gXL/akko-5087s-shine-through-rgb-wired-standard-keyboard-6925758619479"
+                },
+                {
+                    "Type": "Mouse",
+                    "Name": "\u200eDREAM MACHINES DM1 FPS Wired Optical Mouse",
+                    "Price": "$86.96",
+                    "URL": "https://au.pcpartpicker.com/product/WyqPxr/dream-machines-dm1-fps-wired-optical-mouse-dm1fps_blackmatte"
+                },
+                {
+                    "Type": "Headphones",
+                    "Name": "Philips Fidelio X2HR/00  Headphones",
+                    "Price": "$183.20",
+                    "URL": "https://au.pcpartpicker.com/product/DZ3mP6/philips-fidelio-x2hr00-headphones-x2hr00"
+                }
+            ],
+            "Total": "$1904.08"
+        },
+        "Description": [
+            "Currently Using Build 2024-12-13"
+        ]
+    },
+    {
+        "Build": 25,
+        "Name": "Hydaelyn",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 5 7600 3.8 GHz 6-Core Processor",
+                    "Price": "$229.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/yXmmP6/amd-ryzen-5-7600-38-ghz-6-core-processor-100-100001015box"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Thermalright Peerless Assassin 66.17 CFM CPU Cooler",
+                    "Price": "$36.90 USD",
+                    "URL": "https://au.pcpartpicker.com/product/CwqPxr/thermalright-peerless-assassin-6617-cfm-cpu-cooler-peerless-assassin-120"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "ASRock B650I Lightning Wifi Mini ITX AM5 Motherboard",
+                    "Price": "$199.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/rVfxFT/asrock-b650i-lightning-wifi-mini-itx-am5-motherboard-b650i-lightning-wifi"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "G.Skill Ripjaws S5 32 GB (2 x 16 GB) DDR5-6000 CL30 Memory",
+                    "Price": "$113.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/RdhFf7/gskill-ripjaws-s5-32-gb-2-x-16-gb-ddr5-6000-cl30-memory-f5-6000j3040f16ga2-rs5k"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "XFX Speedster SWFT 210 Core Radeon RX 7700 XT 12 GB Video Card",
+                    "Price": "$379.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/97kH99/xfx-speedster-swft-210-core-radeon-rx-7700-xt-12-gb-video-card-rx-77tswftfp"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Fractal Design Define Nano S Mini ITX Desktop Case",
+                    "Price": "$0.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/7d98TW/fractal-design-case-fdcadefnanosbk"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "EVGA SuperNOVA 750 GM 750 W 80+ Gold Certified Fully Modular SFX Power Supply",
+                    "Price": "$134.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/HwYmP6/evga-supernova-750-gm-750-w-80-gold-certified-fully-modular-sfx-power-supply-123-gm-0750-x1"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Noctua P14s redux-1200 PWM 64.92 CFM 140 mm Fan",
+                    "Price": "$16.95 USD",
+                    "URL": "https://au.pcpartpicker.com/product/xs6BD3/noctua-case-fan-nfp14sredux1200pwm"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Noctua P14s redux-1200 PWM 64.92 CFM 140 mm Fan",
+                    "Price": "$16.95 USD",
+                    "URL": "https://au.pcpartpicker.com/product/xs6BD3/noctua-case-fan-nfp14sredux1200pwm"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Noctua P12 redux-1700 PWM 70.75 CFM 120 mm Fan",
+                    "Price": "$15.95 USD",
+                    "URL": "https://au.pcpartpicker.com/product/VNBTwP/noctua-nf-p12-redux-1700-pwm-708-cfm-120mm-fan-nf-p12-redux-1700-pwm"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Noctua P12 redux-1700 PWM 70.75 CFM 120 mm Fan",
+                    "Price": "$15.95 USD",
+                    "URL": "https://au.pcpartpicker.com/product/VNBTwP/noctua-nf-p12-redux-1700-pwm-708-cfm-120mm-fan-nf-p12-redux-1700-pwm"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "SilverStone Technology Universal ATX to SFX Power Supply Bracket RL-PP08B",
+                    "Price": "$12.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/QL98TW/silverstone-technology-universal-atx-to-sfx-power-supply-bracket-rl-pp08b"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "PSU Sleeved Cable, Fiber Braided ATX EPS PCI-E White Cable Extension Kit with Combs for Modular Power Supply 30CM",
+                    "Price": "$14.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/fJQfrH"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "Graphics Card GPU Brace Support, Video Card Sag Holder Bracket, GPU Stand",
+                    "Price": "$9.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/zrWzK8/placeholder"
+                }
+            ],
+            "Total": "$1195.66 USD"
+        },
+        "Description": [
+            "A 1080p gaming rig built over a year, everything save for the case and storage were replaced from my previous i7-7700/GTX1070 system.",
+            "To allow for a larger graphics card, I moved to an sfx power supply. The included power supply cables were too short so I picked up the cheapest extensions I could lazily find.",
+            "No major problems with assembly, but space is a bit tight with all the cables in the back. Will eventually upgrade the HDD to an M.2 and free up some space.",
+            "Swapped the Nano S power led to white. Hard to see in the photo, but I think it fits the case better than blue.",
+            "Haven't manually tuned anything, but I am using Precision Boost Overdrive and the auto gpu undervolt option in the AMD Adrenalin software. Testing some of the most demanding games I have (Dragon's Dogma 2, Space Marine 2 and Remnant 2) temps stay low."
+        ]
+    },
+    {
+        "Build": 26,
+        "Name": "Hyte Y70 Non Touch PC v2",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 5 7600 3.8 GHz 6-Core Processor",
+                    "Price": "$284.66",
+                    "URL": "https://au.pcpartpicker.com/product/yXmmP6/amd-ryzen-5-7600-38-ghz-6-core-processor-100-100001015box"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Corsair iCUE LINK H150i RGB 63.1 CFM Liquid CPU Cooler",
+                    "Price": "$265.00",
+                    "URL": "https://au.pcpartpicker.com/product/sGjRsY/corsair-icue-link-h150i-rgb-631-cfm-liquid-cpu-cooler-cw-9061003-ww"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "ASRock B650E PG RIPTIDE WIFI ATX AM5 Motherboard",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/Tz2WGX/asrock-b650e-pg-riptide-wifi-atx-am5-motherboard-b650e-pg-riptide-wifi"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "G.Skill Trident Z5 RGB 32 GB (2 x 16 GB) DDR5-6400 CL32 Memory",
+                    "Price": "$188.77",
+                    "URL": "https://au.pcpartpicker.com/product/RXGbt6/gskill-trident-z5-rgb-32-gb-2-x-16-gb-ddr5-6400-cl32-memory-f5-6400j3239g16gx2-tz5rk"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Seagate Barracuda Compute 2 TB 3.5\" 7200 RPM Internal Hard Drive",
+                    "Price": "$0.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/mwrYcf/seagate-barracuda-computer-2-tb-35-7200rpm-internal-hard-drive-st2000dm008"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Crucial BX500 2 TB 2.5\" Solid State Drive",
+                    "Price": "$0.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/Gb2bt6/crucial-bx500-2-tb-25-solid-state-drive-ct2000bx500ssd1"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Crucial P5 500 GB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive",
+                    "Price": "$0.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/sCn8TW/crucial-p5-500-gb-m2-2280-nvme-solid-state-drive-ct500p5ssd8"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "ASRock Phantom Gaming D OC Radeon RX 6800 XT 16 GB Video Card",
+                    "Price": "$0.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/XPjNnQ/asrock-radeon-rx-6800-xt-16-gb-phantom-gaming-d-oc-video-card-rx6800xt-pgd-16go"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "HYTE Y70 ATX Mid Tower Case",
+                    "Price": "$349.00",
+                    "URL": "https://au.pcpartpicker.com/product/VGgrxr/hyte-y70-atx-mid-tower-case-cs-hyte-y70-b"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "EVGA 750 GQ 750 W 80+ Gold Certified Semi-modular ATX Power Supply",
+                    "Price": "$0.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/rt8H99/evga-750-gq-750-w-80-gold-certified-semi-modular-atx-power-supply-210-gq-0750"
+                }
+            ],
+            "Total": "$1087.43"
+        },
+        "Description": [
+            "After I built this PC in July I wasn't enjoying it very much and was having some problems with it due to building very quickly without thinking it through as much. So a couple of weeks later after buying some finishing touches like getting a sleeved cable kit, a diffused RGB strip, and fans that were better performing than before. Much of the increase in performance has been the cpu which was underperforming due to a bad mount of the cooler that wasn't super obvious until I remounted it now it scored very will in cinebench r23 now getting 14,000 vs the 12,000 I was getting before. I get 16,000 in 3dmark time spy if anyone wants that information."
+        ]
+    },
+    {
+        "Build": 27,
+        "Name": "My 10 year upgrade",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 5 7600X 4.7 GHz 6-Core Processor",
+                    "Price": "$308.77",
+                    "URL": "https://au.pcpartpicker.com/product/66C48d/amd-ryzen-5-7600x-47-ghz-6-core-processor-100-100000593wof"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Thermalright Peerless Assassin 120 SE 66.17 CFM CPU Cooler",
+                    "Price": "$59.00",
+                    "URL": "https://au.pcpartpicker.com/product/hYxRsY/thermalright-peerless-assassin-120-se-6617-cfm-cpu-cooler-pa120-se-d3"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "Gigabyte B650 AORUS ELITE AX ATX AM5 Motherboard",
+                    "Price": "$534.70",
+                    "URL": "https://au.pcpartpicker.com/product/WBwypg/gigabyte-b650-aorus-elite-ax-atx-am5-motherboard-b650-aorus-elite-ax"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Corsair Vengeance RGB 32 GB (2 x 16 GB) DDR5-7000 CL36 Memory",
+                    "Price": "$297.10",
+                    "URL": "https://au.pcpartpicker.com/product/476NnQ/corsair-vengeance-rgb-32-gb-2-x-16-gb-ddr5-7000-cl36-memory-cmh32gx5m2x7000c36"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Kingston NV3 1 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$89.00",
+                    "URL": "https://au.pcpartpicker.com/product/tmbRsY/kingston-nv3-1-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-snv3s1000g"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "PowerColor Hellhound OC Radeon RX 7800 XT 16 GB Video Card",
+                    "Price": "$934.28",
+                    "URL": "https://au.pcpartpicker.com/product/BtkH99/powercolor-hellhound-oc-radeon-rx-7800-xt-16-gb-video-card-rx-7800-xt-16g-loc"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Fractal Design North ATX Mid Tower Case",
+                    "Price": "$199.00",
+                    "URL": "https://au.pcpartpicker.com/product/ybNxFT/fractal-design-north-atx-mid-tower-case-fd-c-nor1c-02"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Corsair RM850x (2021) 850 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/26rRsY/corsair-rm850x-2021-850-w-80-gold-certified-fully-modular-atx-power-supply-cp-9020200-na"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Thermalright TL-S12 X3 47.6 CFM 120 mm Fans 3-Pack",
+                    "Price": "$37.40",
+                    "URL": "https://au.pcpartpicker.com/product/4zkH99/thermalright-tl-s12-x3-476-cfm-120-mm-fans-3-pack-tl-s12-x3"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "Anker Power Strip Surge Protector (2100J), 12 Outlets with 2 USB A and 1 USB C Port for Multiple Devices, 5ft Extension Cord, 20W Power Delivery Charging for Home, Office, Dorm Essential, TUV",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/RX8bt6/placeholder"
+                }
+            ],
+            "Total": "$2459.25"
+        },
+        "Description": [
+            "After 10 long years, I finally decided to upgrade my pc (going from a GTX 970, i5-3570, with 8GB of DDR3)!",
+            "Started planning the build over the summer and waited for good deals/bundles to buy. I got the CPU,MOBO,RAM, and SSD from a Newegg bundle, which saved me about $118. Only caveat being that I run the RAM at 6000MHz due to constraints w/ the CPU voltage. I could bump it up a few hundred, but after dealing with a faulty/unstable system for a few years I value stability (plus its not a big difference and still performs great). Overall I spent just over $1200, and I am stoked. I plan on making a benchmark video for fun to showcase. \nThis is the first computer I built, so checking compatibility and assembling it was a bit intimidating but not too bad. Dealing with drivers/windows was annoying. Dont look at the cable managment...",
+            "CPU: Fantastic price to performance. I will use this setup mostly for gaming so this is really all I will need to play the games I want (Minecraft w/ shaders, CoD, BF, etc.)",
+            "Cooler: Cool. Comes with everything needed and installing wasnt too bad at all. Little noisy, but very manageable",
+            "MOBO: Heavier than expected, but seems to be the reason for the low temperatures. Feels really nice. Finding the correct user manual online was necessary while installing due to some unclear instructions on where to plug some things in (mainly front panel power). Q-Flash was easy and the bios menu is very navigable. Very glad I chose it.",
+            "SSD: Fast and easy. Not sure what else to say",
+            "GPU: Very cool and quiet! looks great and performs amazing. Nothing can beat its price to performance. Microcenter deal for ~$450 made it even better.",
+            "Case: I really like this case and waited a few months for it to go on sale again to buy. Attention to detail is obvious and it looks great. I am currently using the stock intake fans and they seem to get the job done. May switch out in the future. Pretty easy to build in and assemble. Not too big either. Includes a bunch of accessories for management.",
+            "PSU: Easy to setup. Got on sale.",
+            "Fans: Nice and very cheap. They move an alright amount of air and look nice. Installing was easy with the case, but we will see if I need additional cooling. Still messing around with the setup. I use these for the exhaust",
+            "Monitor: I use the Dell G2724D 165hz 1440p. Its great",
+            "Let me know your thoughts!"
+        ]
+    },
+    {
+        "Build": 28,
+        "Name": "A Couch Gaming PC",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 7 5700X3D 3 GHz 8-Core Processor",
+                    "Price": "$348.66",
+                    "URL": "https://au.pcpartpicker.com/product/3ZKscf/amd-ryzen-7-5700x3d-3-ghz-8-core-processor-100-100001503wof"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "ASRock B550M-ITX/ac Mini ITX AM4 Motherboard",
+                    "Price": "$159.00",
+                    "URL": "https://au.pcpartpicker.com/product/G6VG3C/asrock-b550m-itxac-mini-itx-am4-motherboard-b550m-itxac"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Corsair Vengeance LPX 32 GB (2 x 16 GB) DDR4-3200 CL16 Memory",
+                    "Price": "$82.00",
+                    "URL": "https://au.pcpartpicker.com/product/W6ndnQ/corsair-vengeance-lpx-32-gb-2-x-16-gb-ddr4-3200-memory-cmk32gx4m2e3200c16"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 850 Evo 2 TB 2.5\" Solid State Drive",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/Lb8H99/samsung-internal-hard-drive-mz75e2t0bam"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 990 EVO Plus 1 TB M.2-2280 PCIe 5.0 X2 NVME Solid State Drive",
+                    "Price": "$145.00",
+                    "URL": "https://au.pcpartpicker.com/product/XQFmP6/samsung-990-evo-plus-1-tb-m2-2280-pcie-50-x2-nvme-solid-state-drive-mz-v9s1t0bw"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "MSI RTX 4090 VENTUS 3X 24G OC GeForce RTX 4090 24 GB Video Card",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/DTddnQ/msi-rtx-4090-ventus-3x-24g-oc-geforce-rtx-4090-24-gb-video-card-rtx-4090-ventus-3x-24g-oc"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Cooler Master V SFX Gold ATX 3.0 850 W 80+ Gold Certified Fully Modular SFX Power Supply",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/kkbRsY/cooler-master-v-sfx-gold-atx-30-850-w-80-gold-certified-fully-modular-sfx-power-supply-mpy-8501-sfhagv-3us"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "Cooler Master NCORE 100 MAX ITX SFF Tower Case, Custom 120mm AIO, 850W SFX Gold ATX3.0 PSU, 4 Slot GPU, Vertical Mount GPU, PCIe 4.0 Riser, Anodized Aluminum, USB Type C (NR100-MNNN85-SL0)",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/zjKscf/placeholder"
+                }
+            ],
+            "Total": "$734.66"
+        },
+        "Description": [
+            "I'm a simple man, I just want to play games on a high refresh rate TV with every setting maxed out. This build has no issues with that, 100+ fps in every game I throw at it, ray tracing or not. Smooth, no stuttering and nearly inaudible from the couch."
+        ]
+    },
+    {
+        "Build": 29,
+        "Name": "Kinda Good Pc",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 7 9700X 3.8 GHz 8-Core Processor",
+                    "Price": "$529.77",
+                    "URL": "https://au.pcpartpicker.com/product/YMzXsY/amd-ryzen-7-9700x-38-ghz-8-core-processor-100-100001404wof"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "ARCTIC Liquid Freezer III 360 A-RGB 48.82 CFM Liquid CPU Cooler",
+                    "Price": "$189.00",
+                    "URL": "https://au.pcpartpicker.com/product/CfcgXL/arctic-liquid-freezer-iii-360-a-rgb-4882-cfm-liquid-cpu-cooler-acfre00144a"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "MSI MAG B650 TOMAHAWK WIFI ATX AM5 Motherboard",
+                    "Price": "$297.77",
+                    "URL": "https://au.pcpartpicker.com/product/LwNxFT/msi-mag-b650-tomahawk-wifi-atx-am5-motherboard-mag-b650-tomahawk-wifi"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Patriot Viper Venom 32 GB (2 x 16 GB) DDR5-7000 CL32 Memory",
+                    "Price": "$154.99",
+                    "URL": "https://au.pcpartpicker.com/product/ZyZXsY/patriot-viper-venom-32-gb-2-x-16-gb-ddr5-7000-cl32-memory-pvv532g700c32k"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Kingston KC3000 2.048 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$189.00",
+                    "URL": "https://au.pcpartpicker.com/product/sJPQzy/kingston-kc3000-2048-tb-m2-2280-nvme-solid-state-drive-skc3000d2048g"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "PNY VERTO OC GeForce RTX 4080 SUPER 16 GB Video Card",
+                    "Price": "$1599.00",
+                    "URL": "https://au.pcpartpicker.com/product/BMgrxr/pny-verto-oc-geforce-rtx-4080-super-16-gb-video-card-vcg4080s16tfxpb1-o"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Antec C5 ARGB ATX Mid Tower Case",
+                    "Price": "$159.00",
+                    "URL": "https://au.pcpartpicker.com/product/MFNYcf/antec-c5-argb-atx-mid-tower-case-0-761345-10033-5"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Gigabyte UD850GM PG5 (rev. 2.0) 850 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": "$132.00",
+                    "URL": "https://au.pcpartpicker.com/product/fzpQzy/gigabyte-ud850gm-pg5-rev-20-850-w-80-gold-certified-fully-modular-atx-power-supply-gp-ud850gm-pg5-20"
+                }
+            ],
+            "Total": "$3250.53"
+        },
+        "Description": [
+            "Great pc so far, Had no issues even with the ram set to 7000mt/s. I Had a higher focus on performance but it still turned out looking good"
+        ]
+    },
+    {
+        "Build": 30,
+        "Name": "AM5 black friday build",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 5 7600X 4.7 GHz 6-Core Processor",
+                    "Price": "$308.77",
+                    "URL": "https://au.pcpartpicker.com/product/66C48d/amd-ryzen-5-7600x-47-ghz-6-core-processor-100-100000593wof"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Thermalright Peerless Assassin 120 SE 66.17 CFM CPU Cooler",
+                    "Price": "$78.00",
+                    "URL": "https://au.pcpartpicker.com/product/79bRsY/thermalright-peerless-assassin-120-se-6617-cfm-cpu-cooler-pa120se-black"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "ASRock B650M Pro RS WiFi Micro ATX AM5 Motherboard",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/qcbRsY/asrock-b650m-pro-rs-wifi-micro-atx-am5-motherboard-b650m-pro-rs-wifi"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Crucial Pro Overclocking 32 GB (2 x 16 GB) DDR5-6000 CL36 Memory",
+                    "Price": "$151.05",
+                    "URL": "https://au.pcpartpicker.com/product/QF9wrH/crucial-pro-overclocking-32-gb-2-x-16-gb-ddr5-6000-cl36-memory-cp2k16g60c36u5b"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 990 Pro 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$299.00",
+                    "URL": "https://au.pcpartpicker.com/product/34ytt6/samsung-990-pro-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p2t0bw"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "XFX Speedster SWFT 210 Core Radeon RX 6650 XT 8 GB Video Card",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/NDvdnQ/xfx-radeon-rx-6650-xt-8-gb-speedster-swft-210-core-video-card-rx-665x8dfdy"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Asus Prime AP201 MicroATX Mini Tower Case",
+                    "Price": "$119.00",
+                    "URL": "https://au.pcpartpicker.com/product/fPZ9TW/asus-prime-ap201-microatx-mini-tower-case-ap201blkmesh"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Corsair RM850e (2023) 850 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": "$155.00",
+                    "URL": "https://au.pcpartpicker.com/product/4ZRwrH/corsair-rm850e-2023-850-w-80-gold-certified-fully-modular-atx-power-supply-cp-9020263-na"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Thermalright TL-C12C X3 66.17 CFM 120 mm Fans 3-Pack",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/JmfnTW/thermalright-tl-c12c-x3-6617-cfm-120-mm-fans-3-pack-tl-c12c-x3-d6"
+                }
+            ],
+            "Total": "$1110.82"
+        },
+        "Description": [
+            "I was looking for a reliable machine for professional tasks (mostly CAD), which I could upgrade later since I tend to keep my computers for about a decade (the one this build replaces was from 2016). Some parts were selected based on current sales at the time.",
+            "The main elements I was looking for were:\n- Smaller form factor (downsizing from full tower)\n- Reliable\n- Upgradable\n- Energy efficient\n- Silent\n- No RGB",
+            "Actual cost: 1 305 CAD +tx"
+        ]
+    },
+    {
+        "Build": 31,
+        "Name": "My first setup",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 9 7900X 4.7 GHz 12-Core Processor",
+                    "Price": "\u20ac369.54",
+                    "URL": "https://au.pcpartpicker.com/product/bwxRsY/amd-ryzen-9-7900x-47-ghz-12-core-processor-100-100000589wof"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "ARCTIC Liquid Freezer III 360 A-RGB 48.82 CFM Liquid CPU Cooler",
+                    "Price": "\u20ac188.90",
+                    "URL": "https://au.pcpartpicker.com/product/CfcgXL/arctic-liquid-freezer-iii-360-a-rgb-4882-cfm-liquid-cpu-cooler-acfre00144a"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "MSI MAG X670E TOMAHAWK WIFI ATX AM5 Motherboard",
+                    "Price": "$429.33",
+                    "URL": "https://au.pcpartpicker.com/product/bGfxFT/msi-mag-x670e-tomahawk-wifi-atx-am5-motherboard-mag-x670e-tomahawk-wifi"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "G.Skill Trident Z5 Neo 64 GB (2 x 32 GB) DDR5-6000 CL30 Memory",
+                    "Price": "\u20ac238.07",
+                    "URL": "https://au.pcpartpicker.com/product/Xg2WGX/gskill-trident-z5-neo-64-gb-2-x-32-gb-ddr5-6000-cl30-memory-f5-6000j3040g32gx2-tz5n"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Kingston KC3000 2.048 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "\u20ac134.94",
+                    "URL": "https://au.pcpartpicker.com/product/sJPQzy/kingston-kc3000-2048-tb-m2-2280-nvme-solid-state-drive-skc3000d2048g"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "PNY XLR8 Gaming VERTO EPIC-X RGB OC GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+                    "Price": "\u20ac945.88",
+                    "URL": "https://au.pcpartpicker.com/product/ztbRsY/pny-xlr8-gaming-verto-epic-x-rgb-oc-geforce-rtx-4070-ti-super-16-gb-video-card-vcg4070ts16tfxxpb1-o"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Montech AIR 903 MAX ATX Mid Tower Case",
+                    "Price": "$89.00",
+                    "URL": "https://au.pcpartpicker.com/product/2MwmP6/montech-air-903-max-atx-mid-tower-case-air-903-max-b"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "MSI MPG A850G PCIE5 850 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": "$237.16",
+                    "URL": "https://au.pcpartpicker.com/product/nhC48d/msi-mpg-a850g-pcie5-850-w-80-gold-certified-fully-modular-atx-power-supply-mpg-a850g-pcie5"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "ARCTIC P12 Max 81.04 CFM 120 mm Fan",
+                    "Price": "\u20ac11.09",
+                    "URL": "https://au.pcpartpicker.com/product/9r6NnQ/arctic-p12-max-8104-cfm-120-mm-fan-acfan00280a"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "ARCTIC P12 Max 81.04 CFM 120 mm Fan",
+                    "Price": "\u20ac11.09",
+                    "URL": "https://au.pcpartpicker.com/product/9r6NnQ/arctic-p12-max-8104-cfm-120-mm-fan-acfan00280a"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "MSI G272QPF E2 27.0\" 2560 x 1440 180 Hz Monitor",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/RktLrH/msi-g272qpf-e2-270-2560-x-1440-180-hz-monitor-g272qpf-e2"
+                },
+                {
+                    "Type": "Keyboard",
+                    "Name": "Corsair K70 CORE RGB Wired Gaming Keyboard",
+                    "Price": "$94.24",
+                    "URL": "https://au.pcpartpicker.com/product/mcNYcf/corsair-k70-core-rgb-wired-gaming-keyboard-ch-910971e-na"
+                },
+                {
+                    "Type": "Mouse",
+                    "Name": "Razer DeathAdder V3 Wired Optical Mouse",
+                    "Price": "$105.11",
+                    "URL": "https://au.pcpartpicker.com/product/pf88TW/razer-deathadder-v3-wired-optical-mouse-rz01-04640100-r3u1"
+                }
+            ],
+            "Total": "$954.84"
+        },
+        "Description": [
+            "I use this build for gaming and creation."
+        ]
+    },
+    {
+        "Build": 32,
+        "Name": "my current pc build",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "Intel Core i5-10400 2.9 GHz 6-Core Processor",
+                    "Price": "$372.45",
+                    "URL": "https://au.pcpartpicker.com/product/X8snTW/intel-core-i5-10400-29-ghz-6-core-processor-bx8070110400"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "MSI H410M PRO Micro ATX LGA1200 Motherboard",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/MgfFf7/msi-h410m-pro-micro-atx-lga1200-motherboard-h410m-pro"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Crucial CT2K8G4DFRA32A 16 GB (2 x 8 GB) DDR4-3200 CL22 Memory",
+                    "Price": "$74.00",
+                    "URL": "https://au.pcpartpicker.com/product/qVjNnQ/crucial-ct2k8g4dfra32a-16-gb-2-x-8-gb-ddr4-3200-cl22-memory-ct2k8g4dfra32a"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Toshiba DT01ACA050 500 GB 3.5\" 7200 RPM Internal Hard Drive",
+                    "Price": "$55.28",
+                    "URL": "https://au.pcpartpicker.com/product/D7V48d/toshiba-internal-hard-drive-dt01aca050"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Patriot P210 512 GB 2.5\" Solid State Drive",
+                    "Price": "$38.50",
+                    "URL": "https://au.pcpartpicker.com/product/FrZzK8/patriot-p210-512-gb-25-solid-state-drive-p210s512g25"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "Sapphire PULSE Radeon RX 6600 8 GB Video Card",
+                    "Price": "$329.00",
+                    "URL": "https://au.pcpartpicker.com/product/gJTp99/sapphire-radeon-rx-6600-8-gb-pulse-video-card-11310-01-20g"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Fractal Design Pop Air RGB ATX Mid Tower Case",
+                    "Price": "$0.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/mpcG3C/fractal-design-pop-air-rgb-atx-mid-tower-case-fd-c-por1a-06"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "MSI MPG A650GF 650 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": "$176.00",
+                    "URL": "https://au.pcpartpicker.com/product/bq6qqs/msi-mpg-a650gf-650-w-80-gold-certified-fully-modular-atx-power-supply-mpg-a650gf"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 11 Pro OEM - DVD 64-bit",
+                    "Price": "$229.00",
+                    "URL": "https://au.pcpartpicker.com/product/yjbTwP/microsoft-windows-11-pro-oem-dvd-64-bit-fqc-10529"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "Asus VS228HR 21.5\" 1920 x 1080 60 Hz Monitor",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/kqYXsY/asus-monitor-vs228hr"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "Dell SE2422H 24.0\" 1920 x 1080 75 Hz Monitor",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/6Qnypg/dell-se2422h-240-1920x1080-75-hz-monitor-se2422h"
+                },
+                {
+                    "Type": "Keyboard",
+                    "Name": "Razer Huntsman Mini RGB Wired Mini Keyboard",
+                    "Price": "$128.95",
+                    "URL": "https://au.pcpartpicker.com/product/X77p99/razer-huntsman-mini-rgb-wired-mini-keyboard-rz03-03390200-r3m1"
+                },
+                {
+                    "Type": "Mouse",
+                    "Name": "Logitech G305 LIGHTSPEED Wireless/Wired Optical Mouse",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/Yrw7YJ/logitech-g305-lightspeed-wirelesswired-optical-mouse-910-005280"
+                },
+                {
+                    "Type": "Headphones",
+                    "Name": "Logitech G435  Headset",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/CGD7YJ/logitech-981-001049-headset-981-001049"
+                }
+            ],
+            "Total": "$1403.18"
+        },
+        "Description": [
+            "i have been using this setup for around 2 years now and it works Great \nit has vr support wich that in it self is  power hungry\ni have play most games in 1080p and i use the stock intel cooler\ni am going to upgrade to a i5 14600kf and i maybe will play 1440p or 2k \nor just still use 1080p \ud83e\udd23\nplus my cpu is overclocked because i did it when i was younger i dont even know what i did to it or who hurt me that bad for me to over clock it but its clocked at 4GHz at max power\nanyways if u have any questions ask away \ni dont even know what my mic is but its a streaming one for sure if ya want u can look at my yt channel and see how good the qualaty is (my bad for my grammer i dont really know how to spell corenctly because am romanian and i speak fluently but at typing am crap at it )"
+        ]
+    },
+    {
+        "Build": 33,
+        "Name": "the last last update",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 7 5800XT 3.8 GHz 8-Core Processor",
+                    "Price": "$363.66",
+                    "URL": "https://au.pcpartpicker.com/product/fN88TW/amd-ryzen-7-5800xt-38-ghz-8-core-processor-100-100001582box"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Lian Li HydroShift LCD 360TL RGB 79.9 CFM Liquid CPU Cooler",
+                    "Price": "$419.00",
+                    "URL": "https://au.pcpartpicker.com/product/2TQKHx/lian-li-hydroshift-lcd-360tl-rgb-799-cfm-liquid-cpu-cooler-hslcd36tw"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "ASRock B550 Steel Legend ATX AM4 Motherboard",
+                    "Price": "$329.72",
+                    "URL": "https://au.pcpartpicker.com/product/BYBhP6/asrock-b550-steel-legend-atx-am4-motherboard-b550-steel-legend"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "G.Skill Trident Z Royal 32 GB (2 x 16 GB) DDR4-4000 CL18 Memory",
+                    "Price": "$239.83",
+                    "URL": "https://au.pcpartpicker.com/product/LNLwrH/gskill-trident-z-royal-32-gb-2-x-16-gb-ddr4-4000-cl18-memory-f4-4000c18d-32gtrs"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "G.Skill Trident Z Royal 32 GB (2 x 16 GB) DDR4-4000 CL18 Memory",
+                    "Price": "$239.83",
+                    "URL": "https://au.pcpartpicker.com/product/LNLwrH/gskill-trident-z-royal-32-gb-2-x-16-gb-ddr4-4000-cl18-memory-f4-4000c18d-32gtrs"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Western Digital WD_Black SN850X 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$279.89",
+                    "URL": "https://au.pcpartpicker.com/product/crKKHx/western-digital-wd_black-sn850x-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-wds200t2x0e"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Western Digital WD_Black SN850X 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$279.89",
+                    "URL": "https://au.pcpartpicker.com/product/crKKHx/western-digital-wd_black-sn850x-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-wds200t2x0e"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "Sapphire PULSE Radeon RX 6800 XT 16 GB Video Card",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/336qqs/sapphire-radeon-rx-6800-xt-16-gb-pulse-video-card-11304-03-20g"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Montech KING 95 ATX Mid Tower Case",
+                    "Price": "$139.00",
+                    "URL": "https://au.pcpartpicker.com/product/Frn9TW/montech-king-95-atx-mid-tower-case-king-95-black"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Thermaltake Toughpower GF A3 Snow 850 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": "$159.00",
+                    "URL": "https://au.pcpartpicker.com/product/vwHqqs/thermaltake-toughpower-gf-a3-snow-850-w-80-gold-certified-fully-modular-atx-power-supply-ps-tpd-0850fnfagu-n"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 11 Pro Retail - Download 64-bit",
+                    "Price": "$299.00",
+                    "URL": "https://au.pcpartpicker.com/product/VCTp99/microsoft-windows-11-pro-retail-download-64-bit-fqc-10572"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Lian Li UNI FAN TL 120 90.1 CFM 120 mm Fans 3-Pack",
+                    "Price": "$159.00",
+                    "URL": "https://au.pcpartpicker.com/product/BHLdnQ/lian-li-uni-fan-tl-120-901-cfm-120-mm-fans-3-pack-12tl3b"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Lian Li UNI FAN TL LCD 120 90.1 CFM 120 mm Fans 3-Pack",
+                    "Price": "$199.00",
+                    "URL": "https://au.pcpartpicker.com/product/Nsgrxr/lian-li-uni-fan-tl-lcd-120-901-cfm-120-mm-fans-3-pack-12tllcd3b"
+                }
+            ],
+            "Total": "$3106.82"
+        },
+        "Description": [
+            "downgraded the cpu to a less core but newer one, upgraded fans, cooler & storage"
+        ]
+    },
+    {
+        "Build": 34,
+        "Name": "2024 - Cougar",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD FX-8350 4 GHz 8-Core Processor",
+                    "Price": "$40.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/ykphP6/amd-cpu-fd8350frhkbox"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "upHere C92 70 CFM CPU Cooler",
+                    "Price": "$20.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/KZGnTW/uphere-c92-70-cfm-cpu-cooler-lysb01ivqydb6-cmptraccs"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "Asus M5A97 LE R2.0 ATX AM3+ Motherboard",
+                    "Price": "$40.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/ZNtCmG/asus-motherboard-m5a97ler20"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "G.Skill Ripjaws X 16 GB (2 x 8 GB) DDR3-2133 CL9 Memory",
+                    "Price": "$30.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/KQ4gXL/gskill-memory-f32133c9d16gxh"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Kingston A400 120 GB 2.5\" Solid State Drive",
+                    "Price": "$15.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/2FDzK8/kingston-a400-120gb-25-solid-state-drive-sa400s37120g"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Hitachi Ul\u200btrastar A7\u200bK2000 2TB \u200bHUA722020A\u200bLA330 2TB \u200b32MB Cache\u200b 7200RPM",
+                    "Price": "                                    $30.00 USD\n                                ",
+                    "URL": "https://au.pcpartpicker.com#view_custom_part"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "MSI GAMING GeForce GTX 1070 Ti 8 GB Video Card",
+                    "Price": "$100.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/ZWnG3C/msi-geforce-gtx-1070-ti-8gb-video-card-gtx-1070-ti-gaming-8g"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Cougar Solution 2 ATX Mid Tower Case",
+                    "Price": "$30.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/jgL7YJ/cougar-case-solution2"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Rosewill HIVE 750 W 80+ Bronze Certified Semi-modular ATX Power Supply",
+                    "Price": "$45.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/gnDwrH/rosewill-power-supply-hive750"
+                },
+                {
+                    "Type": "Optical Drive",
+                    "Name": "Asus DRW-24F1ST DVD/CD Writer",
+                    "Price": "$15.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/wT2kcf/asus-optical-drive-drw24f1st"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 10 Home OEM - DVD 64-bit",
+                    "Price": "$99.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/96RFf7/microsoft-windows-10-home-oem-dvd-64-bit-kw9-00139"
+                },
+                {
+                    "Type": "Wireless Network Adapter",
+                    "Name": "TP-Link ArcherTX20E 802.11a/b/g/n/ac/ax PCIe x1 Wi-Fi Adapter",
+                    "Price": "$15.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/LW9wrH/tp-link-archertx20e-80211abgnacax-pcie-x1-wi-fi-adapter-archertx20e"
+                },
+                {
+                    "Type": "Case Accessory",
+                    "Name": "NZXT Aperture M Card Reader",
+                    "Price": "$15.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/nr3RsY/nzxt-case-accessory-8caper000w0b"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "APEVIA AF512L-SRD 120mm Red LED Ultra Silent Case Fan w/ 15 LEDs & Anti-Vibration Rubber Pads (5-pk)",
+                    "Price": "$10.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/DfnG3C/apevia-af512l-srd-120mm-red-led-ultra-silent-case-fan-w-15-leds-anti-vibration-rubber-pads-5-pk"
+                }
+            ],
+            "Total": "$504.99 USD"
+        },
+        "Description": [
+            "In spite of its age this PC is actually pretty darn fast and responsive. It was AMD's highest end processor for the time."
+        ]
+    },
+    {
+        "Build": 35,
+        "Name": "2024 First PC Build Project",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 5 7600X 4.7 GHz 6-Core Processor",
+                    "Price": "$308.77",
+                    "URL": "https://au.pcpartpicker.com/product/66C48d/amd-ryzen-5-7600x-47-ghz-6-core-processor-100-100000593wof"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Thermalright Phantom Spirit EVO 69 CFM CPU Cooler",
+                    "Price": "$89.00",
+                    "URL": "https://au.pcpartpicker.com/product/BRMMnQ/thermalright-phantom-spirit-evo-69-cfm-cpu-cooler-phantom-spirit-120-evo"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "MSI B650 GAMING PLUS WIFI ATX AM5 Motherboard",
+                    "Price": "$279.00",
+                    "URL": "https://au.pcpartpicker.com/product/szfxFT/msi-b650-gaming-plus-wifi-atx-am5-motherboard-b650-gaming-plus-wifi"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Corsair Vengeance RGB 32 GB (2 x 16 GB) DDR5-6000 CL30 Memory",
+                    "Price": "$182.71",
+                    "URL": "https://au.pcpartpicker.com/product/mjt9TW/corsair-vengeance-rgb-32-gb-2-x-16-gb-ddr5-6000-cl30-memory-cmh32gx5m2b6000z30k"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Crucial P3 Plus 1 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$86.00",
+                    "URL": "https://au.pcpartpicker.com/product/chzhP6/crucial-p3-plus-1-tb-m2-2280-nvme-solid-state-drive-ct1000p3pssd8"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Crucial P3 Plus 500 GB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$55.00",
+                    "URL": "https://au.pcpartpicker.com/product/vPpzK8/crucial-p3-plus-500-gb-m2-2280-nvme-solid-state-drive-ct500p3pssd8"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "MSI GAMING X SLIM GeForce RTX 4070 SUPER 12 GB Video Card",
+                    "Price": "$999.00",
+                    "URL": "https://au.pcpartpicker.com/product/JJZXsY/msi-gaming-x-slim-geforce-rtx-4070-super-12-gb-video-card-rtx-4070-super-12g-gaming-x-slim"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Corsair 4000D Airflow ATX Mid Tower Case",
+                    "Price": "$114.99",
+                    "URL": "https://au.pcpartpicker.com/product/bCYQzy/corsair-4000d-airflow-atx-mid-tower-case-cc-9011200-ww"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Corsair RM1000x SHIFT 1000 W 80+ Gold Certified Fully Modular Side Interface ATX Power Supply",
+                    "Price": "$259.00",
+                    "URL": "https://au.pcpartpicker.com/product/NrxxFT/corsair-rm1000x-shift-1000-w-80-gold-certified-fully-modular-side-interface-atx-power-supply-cp-9020253-na"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "ARCTIC P14 PWM PST A-RGB 68 CFM 140 mm Fans 3-Pack",
+                    "Price": "$75.00",
+                    "URL": "https://au.pcpartpicker.com/product/nWqPxr/arctic-p14-pwm-pst-a-rgb-68-cfm-140-mm-fans-3-pack-acfan00257a"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "Gigabyte M27Q 27.0\" 2560 x 1440 170 Hz Monitor",
+                    "Price": "$379.00",
+                    "URL": "https://au.pcpartpicker.com/product/k8GnTW/gigabyte-m27q-270-2560x1440-170-hz-monitor-m27q"
+                },
+                {
+                    "Type": "Keyboard",
+                    "Name": "Keychron K2 Plastic RGB Wireless Standard Keyboard",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/6ZhFf7/keychron-k2-plastic-rgb-wireless-standard-keyboard-k2-b3"
+                },
+                {
+                    "Type": "Mouse",
+                    "Name": "Logitech G502 LIGHTSPEED Wireless Optical Mouse",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/t9x2FT/logitech-g502-lightspeed-wireless-optical-mouse-910-005565"
+                },
+                {
+                    "Type": "Headphones",
+                    "Name": "SteelSeries Arctis 7  Headset",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/cKjWGX/steelseries-arctis-7-headset-61463"
+                },
+                {
+                    "Type": "Speakers",
+                    "Name": "Creative Labs Pebble V3 8 W Speakers",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/Fhnypg/creative-labs-pebble-v3-8-w-20-channel-speakers-51mf1700aa001"
+                }
+            ],
+            "Total": "$2827.47"
+        },
+        "Description": [
+            "Hi there! This is my first PC ever and I built it all by myself, starting with having almost no knowledge on PC building. I'm really satisfied with the results and am confident to say that I'm fairly knowledgeable on PC building now. I cherry-picked each individual parts by myself after watching 48+ hours worth of Youtube videos and 50+ reddit posts within the timespan of 1.5 months. This is probably overkill but I really enjoyed the process and just wanted to make sure that each PC part is exactly what I want. On a side note though, some of the accessories I have were gifts I got from my friends but for the main PC parts, I bought them during Black Friday sales, which saved me a decent amount. The PC building process itself took me around 1 week to complete and this is because I have a pretty severe OCD, I must admit. That said, I'm happy to share the PC I've assembled this year. Would love to hear feedback for any improvements or suggestions. Thanks for stopping by!",
+            "Actual Spent: https://docs.google.com/spreadsheets/d/1KhElq0kdm8NuupKfOTapTpA1w6KRTUdHWaJM0G2V8jo/edit?usp=sharing"
+        ]
+    },
+    {
+        "Build": 36,
+        "Name": "New Gaming PC :D",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "Intel Core i7-10700K 3.8 GHz 8-Core Processor",
+                    "Price": "$498.88",
+                    "URL": "https://au.pcpartpicker.com/product/yhxbt6/intel-core-i7-10700k-38-ghz-8-core-processor-bx8070110700k"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Cooler Master Hyper 212 (2023) 70.7 CFM CPU Cooler",
+                    "Price": "$45.00",
+                    "URL": "https://au.pcpartpicker.com/product/dF3NnQ/cooler-master-hyper-212-2023-707-cfm-cpu-cooler-rr-s4kk-25sn-r1"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "ASRock B560 Pro4 ATX LGA1200 Motherboard",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/QzYmP6/asrock-b560-pro4-atx-lga1200-motherboard-b560-pro4"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Corsair Vengeance LPX 32 GB (2 x 16 GB) DDR4-3600 CL18 Memory",
+                    "Price": "$88.00",
+                    "URL": "https://au.pcpartpicker.com/product/Yg3mP6/corsair-vengeance-lpx-32-gb-2-x-16-gb-ddr4-3600-memory-cmk32gx4m2d3600c18"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Crucial P2 2 TB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/QggQzy/crucial-p2-2-tb-m2-2280-nvme-solid-state-drive-ct2000p2ssd8"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Crucial P3 Plus 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$169.00",
+                    "URL": "https://au.pcpartpicker.com/product/yGZ9TW/crucial-p3-plus-2-tb-m2-2280-nvme-solid-state-drive-ct2000p3pssd8"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "HGST Ultra\u200bstar 1TB 3\u200b.5\" 7200RP\u200bM SATA3",
+                    "Price": "",
+                    "URL": "https://au.pcpartpicker.com#view_custom_part"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "NVIDIA Founders Edition GeForce RTX 3070 8 GB Video Card",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/m8pmP6/nvidia-geforce-rtx-3070-8-gb-founders-edition-video-card-9001g1422510000"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Fractal Design North ATX Mid Tower Case",
+                    "Price": "$199.00",
+                    "URL": "https://au.pcpartpicker.com/product/ybNxFT/fractal-design-north-atx-mid-tower-case-fd-c-nor1c-02"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Corsair CX550 (2017) 550 W 80+ Bronze Certified ATX Power Supply",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/FdRFf7/corsair-cx550-2017-550-w-80-bronze-certified-atx-power-supply-cp-9020121-na"
+                },
+                {
+                    "Type": "Wireless Network Adapter",
+                    "Name": "TP-Link ArcherTX20E 802.11a/b/g/n/ac/ax PCIe x1 Wi-Fi Adapter",
+                    "Price": "$41.00",
+                    "URL": "https://au.pcpartpicker.com/product/LW9wrH/tp-link-archertx20e-80211abgnacax-pcie-x1-wi-fi-adapter-archertx20e"
+                }
+            ],
+            "Total": "$1040.88"
+        },
+        "Description": [
+            "This is my upgrade from a 2020 TUF Gaming F15 laptop (i5 10300H [4C/8T] + 1650 Ti [4GB]). I'll add more images later. I only grabbed one to send to my friends. Doesn't show the outside, including the HDD hidden next to the PSU.",
+            "The main features of this PC are:\n - i7 10700K [8C/16T]\n - 3070 FE [8GB]\n - 32GB Vengence LPX memory (DDR4, XMP for 3200MHz)\n - 5TB total storage (2TB Samsung NVMe (boot) / 2TB Crucial NVMe \"cold\" storage / 1TB HDD \"super cold\" storage)\n - ASRock B560 PRO4\n - Fractal North mid-tower case (because I'm basic like that)",
+            "The motherboard has 3 NVMe slots, but only 2 of them can be used because of the 10th gen CPU. I'll be upgrading to an 11th gen CPU sometime next year, and will get that third NVMe.",
+            "Most importantly: This PC cost me $700, only because I bought the GPU, CPU, and motherboard second-hand. The GPU was $333.95, and the CPU and motherboard came together for $217.67 (an epic steal considering how much of an upgrade it is for me). The PSU and case fans were all stolen, with the exception of the front case fans, which came with the case.",
+            "I built this PC on the 23rd of November, which was built into another case that I borrowed from my local school. Then I bought the Fractal North on the 24th and transplanted all the internals today. The case arrived yesterday (December 11th).",
+            "I haven't played many AAA titles other than Halo Infinite. I'm also playing the Master Chief collection (I found it for $10). Dicking around with the Nvidia settings showed me a \"Fast VSync\" setting, which was not available with my 1650 Ti. This lets me get more than 60 FPS because I'm using cheap monitors with only a 60Hz refresh rate (1080p), so I'd get horrific screen tearing without VSync. This prevents screen tearing.\nAll Halo games prior to Halo Infinite were running with lows of ~180 FPS and highs of ~600 FPS (anniversary editions would get ~200 FPS).\nSubnautica Below Zero also ran with high settings at ~190 FPS.\nFortnite (at least the festival game mode) runs with RTX set to high out of ultra at 80-120 FPS.",
+            "Overall, this PC is amazing for me. Love it and do not regret switching to it at all, even if it drained my account."
+        ]
+    },
+    {
+        "Build": 37,
+        "Name": "SkyNet 7",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 9 5900X 3.7 GHz 12-Core Processor",
+                    "Price": "$260.94 USD",
+                    "URL": "https://au.pcpartpicker.com/product/KwLwrH/amd-ryzen-9-5900x-37-ghz-12-core-processor-100-100000061wof"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "ID-COOLING FROZN A410 ARGB 78 CFM CPU Cooler",
+                    "Price": "$39.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/yZDQzy/id-cooling-frozn-a410-argb-78-cfm-cpu-cooler-frozn-a410-argb"
+                },
+                {
+                    "Type": "Thermal Compound",
+                    "Name": "KINGPINcooling KPx 10 g Thermal Paste",
+                    "Price": "$18.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/tRYRsY/kingpincooling-kpx-10-g-thermal-paste-kpx-10g-002"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "Asus TUF GAMING B550-PLUS WIFI II ATX AM4 Motherboard",
+                    "Price": "$129.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/pLNxFT/asus-tuf-gaming-b550-plus-wifi-ii-atx-am4-motherboard-tuf-gaming-b550-plus-wifi-ii"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Corsair Vengeance RGB Pro 64 GB (2 x 32 GB) DDR4-3600 CL18 Memory",
+                    "Price": "$142.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/LPK2FT/corsair-vengeance-rgb-pro-64-gb-2-x-32-gb-ddr4-3600-memory-cmw64gx4m2d3600c18"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 990 Pro 4 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$289.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/RKYmP6/samsung-990-pro-4-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p4t0bw"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "EVGA XC3 ULTRA GAMING GeForce RTX 3070 Ti 8 GB Video Card",
+                    "Price": "$325.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/GtWzK8/evga-geforce-rtx-3070-ti-8-gb-xc3-ultra-gaming-video-card-08g-p5-3785-kl"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "be quiet! Pure Base 600 ATX Mid Tower Case",
+                    "Price": "$99.90 USD",
+                    "URL": "https://au.pcpartpicker.com/product/FZ38TW/be-quiet-pure-base-600-wwindow-black-atx-mid-tower-case-bgw21"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "EVGA SuperNOVA 850 GT 850 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": "$89.90 USD",
+                    "URL": "https://au.pcpartpicker.com/product/YF4Ycf/evga-supernova-850-gt-850-w-80-gold-certified-fully-modular-atx-power-supply-220-gt-0850-y1"
+                },
+                {
+                    "Type": "Optical Drive",
+                    "Name": "Pioneer BDR-213EBK",
+                    "Price": "$109.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/WFWJ7P/pioneer-bdr-213ebk-bdr-213ebk"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 11 Pro OEM - DVD 64-bit",
+                    "Price": "$159.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/yjbTwP/microsoft-windows-11-pro-oem-dvd-64-bit-fqc-10529"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Thermalright TL-S12 X3 47.6 CFM 120 mm Fans 3-Pack",
+                    "Price": "$13.79 USD",
+                    "URL": "https://au.pcpartpicker.com/product/4zkH99/thermalright-tl-s12-x3-476-cfm-120-mm-fans-3-pack-tl-s12-x3"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "MSI MAG 275QF 27.0\" 2560 x 1440 180 Hz Monitor",
+                    "Price": "$159.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/4gGhP6/msi-mag-275qf-270-2560-x-1440-180-hz-monitor-mag-275qf"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "MSI MAG 275QF 27.0\" 2560 x 1440 180 Hz Monitor",
+                    "Price": "$159.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/4gGhP6/msi-mag-275qf-270-2560-x-1440-180-hz-monitor-mag-275qf"
+                },
+                {
+                    "Type": "Mouse",
+                    "Name": "Logitech G502 X Plus Wired/Wired/Wireless Optical Mouse",
+                    "Price": "$121.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/J86p99/logitech-g502-x-plus-wiredwiredwireless-optical-mouse-910-006160"
+                },
+                {
+                    "Type": "External Storage",
+                    "Name": "Western Digital My Passport 5 TB External Hard Drive",
+                    "Price": "$137.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/BJsnTW/western-digital-5-tb-external-hard-drive-wdbpkj0050bbk-wesn"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "                                                                    Misc                                                            ",
+                    "Price": "                                    $100.00 USD\n                                ",
+                    "URL": null
+                }
+            ],
+            "Total": "$2357.46 USD"
+        },
+        "Description": [
+            "Semi Budget Build..  Black Friday Sales.    Mostly for Work.... With Gaming Potential."
+        ]
+    },
+    {
+        "Build": 38,
+        "Name": "melona",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "Intel Core i5-12400F 2.5 GHz 6-Core Processor",
+                    "Price": "$155.00",
+                    "URL": "https://au.pcpartpicker.com/product/pQNxFT/intel-core-i5-12400f-25-ghz-6-core-processor-bx8071512400f"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "MSI PRO Z790-A MAX WIFI ATX LGA1700 Motherboard",
+                    "Price": "$429.00",
+                    "URL": "https://au.pcpartpicker.com/product/CsvD4D/msi-pro-z790-a-max-wifi-atx-lga1700-motherboard-pro-z790-a-max-wifi"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Corsair Vengeance RGB 32 GB (2 x 16 GB) DDR5-6000 CL36 Memory",
+                    "Price": "$209.00",
+                    "URL": "https://au.pcpartpicker.com/product/QTLFf7/corsair-vengeance-rgb-32-gb-2-x-16-gb-ddr5-6000-cl36-memory-cmh32gx5m2d6000c36w"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 980 Pro 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$289.00",
+                    "URL": "https://au.pcpartpicker.com/product/f3cRsY/samsung-980-pro-2-tb-m2-2280-nvme-solid-state-drive-mz-v8p2t0bam"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "NVIDIA Founders Edition GeForce RTX 4070 SUPER 12 GB Video Card",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/QHDQzy/nvidia-founders-edition-geforce-rtx-4070-super-12-gb-video-card-900-1g141-2534-000"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Cooler Master QUBE 500 Flatpack Macaron Edition ATX Mid Tower Case",
+                    "Price": "$125.00",
+                    "URL": "https://au.pcpartpicker.com/product/KjbRsY/cooler-master-qube-500-flatpack-macaron-edition-atx-mid-tower-case-q500-dgnn-s00"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Corsair RM750e (2023) 750 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": "$135.00",
+                    "URL": "https://au.pcpartpicker.com/product/YRJp99/corsair-rm750e-2023-750-w-80-gold-certified-fully-modular-atx-power-supply-cp-9020262-na"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 11 Home Retail - Download 64-bit",
+                    "Price": "$197.95",
+                    "URL": "https://au.pcpartpicker.com/product/7ZpzK8/microsoft-windows-11-home-retail-download-64-bit-kw9-00664"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "LG UltraGear 27.0\" 1920 x 1080 240 Hz Monitor",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/8HcRsY/lg-ultragear-270-1920-x-1080-240-hz-monitor-27gn75b-b"
+                }
+            ],
+            "Total": "$1539.95"
+        },
+        "Description": [
+            "Overkill for 1080p"
+        ]
+    },
+    {
+        "Build": 39,
+        "Name": "First AM4 PC build",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor",
+                    "Price": "$129.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/bddxFT/amd-ryzen-7-2700x-37ghz-8-core-processor-yd270xbgafbox"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "Asus ROG STRIX B450-F GAMING II ATX AM4 Motherboard",
+                    "Price": "$79.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/xYvqqs/asus-rog-strix-b450-f-gaming-ii-atx-am4-motherboard-rog-strix-b450-f-gaming-ii"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "TEAMGROUP T-Force Vulcan Z 16 GB (2 x 8 GB) DDR4-3200 CL16 Memory",
+                    "Price": "$58.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/z3VD4D/team-t-force-vulcan-z-16-gb-2-x-8-gb-ddr4-3200-memory-tlzgd416g3200hc16cdc01"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Crucial P2 500 GB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive",
+                    "Price": "$54.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/G9XYcf/crucial-p2-500-gb-m2-2280-nvme-solid-state-drive-ct500p2ssd8"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "Asus ROG STRIX Radeon RX 580 8 GB Video Card",
+                    "Price": "$150.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/9ZmxFT/asus-radeon-rx-580-8-gb-rog-strix-video-card-rog-strix-rx580-o8g-gaming"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Deepcool MATREXX 55 ATX Mid Tower Case",
+                    "Price": "$40.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/2Zvbt6/deepcool-matrexx-55-atx-mid-tower-case-matrexx-55"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "PowerSpec PS 550BF 550 W 80+ Bronze Certified ATX Power Supply",
+                    "Price": "$40.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/6MTzK8/powerspec-550-w-80-bronze-certified-atx-power-supply-ps-550bf"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "upHere B12CM4 50.9 CFM 120 mm Fans 3-Pack",
+                    "Price": "$25.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/jXVG3C/uphere-b12cm4-509-cfm-120-mm-fans-b12cm4-3"
+                }
+            ],
+            "Total": "$575.00 USD"
+        },
+        "Description": [
+            "This was my first PC that I made, which I have since upgraded from.",
+            "AMD Ryzen 7 2700X: Got from a Microcenter bundle with the motherboard",
+            "Asus ROG STRIX Radeon RX 580: Purchased from eBay. Was a decent card for the time, since I mainly played Esports titles",
+            "Asus ROG STRIX B450-F GAMING II: Included in Microcenter bundle",
+            "TEAMGROUP T-Force Vulcan Z: I got this from Newegg",
+            "Crucial P2 500 GB: Got this from Newegg as well. SSD prices were quite expensive during this time period. Was limited with only 500 GB.",
+            "Deepcool MATREXX 55: I got this used from eBay. Great price for the features and build quality",
+            "PowerSpec PS 550 W: I got this at Microcenter when getting the bundle. It was very basic but did its job",
+            "Uphere Fans: Purely for cooling. Was annoying that I could only change it through a remote."
+        ]
+    },
+    {
+        "Build": 40,
+        "Name": "Intel Core Ultra 7 265K Multipurpose Gaming PC Build",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "Intel Core Ultra 7 265K 3.9 GHz 20-Core Processor",
+                    "Price": "$629.00",
+                    "URL": "https://au.pcpartpicker.com/product/mBsV3C/intel-core-ultra-7-265k-39-ghz-20-core-processor-bx80768265k"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Corsair iCUE LINK TITAN 360 RX LCD 73.5 CFM Liquid CPU Cooler",
+                    "Price": "$283.00",
+                    "URL": "https://au.pcpartpicker.com/product/TtXV3C/corsair-icue-link-titan-360-rx-lcd-735-cfm-liquid-cpu-cooler-cw-9061023-ww"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "Asus ROG STRIX Z890-F GAMING WIFI ATX LGA1851 Motherboard",
+                    "Price": "$799.00",
+                    "URL": "https://au.pcpartpicker.com/product/kn3NnQ/asus-rog-strix-z890-f-gaming-wifi-atx-lga1851-motherboard-rog-strix-z890-f-gaming-wifi"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Corsair Vengeance RGB 64 GB (2 x 32 GB) DDR5-6400 CL32 Memory",
+                    "Price": "$341.90",
+                    "URL": "https://au.pcpartpicker.com/product/Pt88TW/corsair-vengeance-rgb-64-gb-2-x-32-gb-ddr5-6400-cl32-memory-cmh64gx5m2b6400c32"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 970 Evo Plus 1 TB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive",
+                    "Price": "$99.00",
+                    "URL": "https://au.pcpartpicker.com/product/Zxw7YJ/samsung-970-evo-plus-1-tb-m2-2280-nvme-solid-state-drive-mz-v7s1t0bam"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 970 Evo Plus 2 TB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive",
+                    "Price": "$288.00",
+                    "URL": "https://au.pcpartpicker.com/product/Fv8j4D/samsung-970-evo-plus-2-tb-m2-2280-nvme-solid-state-drive-mz-v7s2t0bam"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 990 EVO 1 TB M.2-2280 PCIe 5.0 X2 NVME Solid State Drive",
+                    "Price": "$134.74",
+                    "URL": "https://au.pcpartpicker.com/product/xXGhP6/samsung-990-evo-1-tb-m2-2280-pcie-50-x2-nvme-solid-state-drive-mz-v9e1t0bam"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "PNY XLR8 Gaming VERTO EPIC-X RGB GeForce RTX 4080 16 GB Video Card",
+                    "Price": "$2209.00",
+                    "URL": "https://au.pcpartpicker.com/product/RnZ9TW/pny-xlr8-gaming-verto-epic-x-rgb-geforce-rtx-4080-16-gb-video-card-vcg408016tfxxpb1"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "MUSETEX Y6 ATX Mid Tower Case",
+                    "Price": "$456.06",
+                    "URL": "https://au.pcpartpicker.com/product/sdWJ7P/musetex-y6-atx-mid-tower-case-y6-n5-w"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Corsair RM850x (2021) 850 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/26rRsY/corsair-rm850x-2021-850-w-80-gold-certified-fully-modular-atx-power-supply-cp-9020200-na"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 11 Home Retail - Download 64-bit",
+                    "Price": "$197.95",
+                    "URL": "https://au.pcpartpicker.com/product/7ZpzK8/microsoft-windows-11-home-retail-download-64-bit-kw9-00664"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "MSI MAG 274UPF 27.0\" 3840 x 2160 144 Hz Monitor",
+                    "Price": "$629.00",
+                    "URL": "https://au.pcpartpicker.com/product/JK26Mp/msi-mag-274upf-270-3840-x-2160-144-hz-monitor-mag-274upf"
+                },
+                {
+                    "Type": "Keyboard",
+                    "Name": "Logitech G613 Wireless Standard Keyboard",
+                    "Price": "$180.99",
+                    "URL": "https://au.pcpartpicker.com/product/R3KhP6/logitech-g613-wireless-standard-keyboard-920-008386"
+                },
+                {
+                    "Type": "Mouse",
+                    "Name": "Logitech G502 LIGHTSPEED Wireless Optical Mouse",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/t9x2FT/logitech-g502-lightspeed-wireless-optical-mouse-910-005565"
+                },
+                {
+                    "Type": "Webcam",
+                    "Name": "Logitech MX BRIO Webcam",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/nLNYcf/logitech-mx-brio-webcam-960-001545"
+                }
+            ],
+            "Total": "$6247.64"
+        },
+        "Description": [
+            "First and foremost, I am enjoying this CPU so much more than my 14900K.  I had a 13700k that I bought on launch day and it got rmad last month.  Intel replaced very fast no issues and it now works as my back up pc.",
+            "I bought the 14900K as a place holder for something better, but my Best buy doesnt carry any X3d(and I am not a big AMD fan, for personal reasons)  and the ultra 9 was a tad outside my preferred budget.",
+            "Both my 13700k and 14900K were not able to run my ram at full speed.  This time I have no issues with XMP.",
+            "My monitor is the LG C3 but I cant list it, so I listed the monitor I use when I choose to use this as a tv.",
+            "I did repo my gpu out of my old pc, but I will return it once the RTX 5090 is released.  Not doing 5080 as it has same ram amount and I find that a bit meh.  I want more.  Not the same :)",
+            "CPU temps are anywhere from 30 to 36 on idle(depends when the heat kicks in on the room)\nand it hit 83c on OCCT test.  Gaming doesnt seem to go over 65c at all, in 4k or 1080p.",
+            "I think my 14900K was a lemon, because it was so sluggish, even my rma 13700k was faster.  But this cpu is fast and cool.  My AIO is over kill but I havent used air in nearly 15 years, why start now?  I am testing the pre applied thermal paste, but I bought MX 4 to later swap to.  I may or may not swap the case non rgb fans to rgb, really depends on my mood.",
+            "As for the Z890-F  The difference between E and F is the F has 2 less NVME, 5 instead of 7 and 2 less usbs(I think I have like 10? (too tired to go check) and there is no LCD Qcode on the mobo)  Otherwise it is identical for 100 bucks less.",
+            "I know people are saying dont buy Arrow lake, but this is no Arrow to the Knee.  And I am enjoying this adventure!!  I legit have no regrets and I was honestly concerned I might.",
+            "Most issues people had with games and drivers are windows related.  I did have to reinstall windows with 24h2 update be older windows has issues with EAC and other software and older windows makes you install via onboard gpu that I have yet to test(I turned mine off)",
+            "My cpu seems to like to use 4.6GHhz has the standard but will boost to 5.2 as needed I havent overclocked yet as I have no need to.",
+            "The OCCT photo isnt even optimized as I have a half dozen tabs open, icue, msi afterburner steam and a few other things I normally close before running.",
+            "Not sure why all the outcry.  This was $200 cheaper than me going with a 9800x3d and at 4k I am gpu bound anyway, so I wouldnt likely see any performance gain or loss between the 2.",
+            "Note: My case is black, but for whatever reason only the white case of the name model appears."
+        ]
+    },
+    {
+        "Build": 41,
+        "Name": "$1700 gaming build",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 5 5600X 3.7 GHz 6-Core Processor",
+                    "Price": "$187.77",
+                    "URL": "https://au.pcpartpicker.com/product/g94BD3/amd-ryzen-5-5600x-37-ghz-6-core-processor-100-100000065box"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "MSI MAG CORELIQUID 240R V2 78.73 CFM Liquid CPU Cooler",
+                    "Price": "$151.85",
+                    "URL": "https://au.pcpartpicker.com/product/dCcG3C/msi-mag-coreliquid-240r-v2-7873-cfm-liquid-cpu-cooler-mag-coreliquid-240r-v2"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "ASRock B550M-HDV Micro ATX AM4 Motherboard",
+                    "Price": "$98.00",
+                    "URL": "https://au.pcpartpicker.com/product/LKLwrH/asrock-b550m-hdv-micro-atx-am4-motherboard-b550m-hdv"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "G.Skill Trident Z RGB 32 GB (2 x 16 GB) DDR4-3600 CL18 Memory",
+                    "Price": "$109.00",
+                    "URL": "https://au.pcpartpicker.com/product/fBLwrH/gskill-trident-z-rgb-32-gb-2-x-16-gb-ddr4-3600-memory-f4-3600c18d-32gtzr"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Timetec 35TTFP6PCIE 1 TB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive",
+                    "Price": "$103.99",
+                    "URL": "https://au.pcpartpicker.com/product/GPPQzy/timetec-35ttfp6pcie-1-tb-m2-2280-nvme-solid-state-drive-35ttfp6pcie-1tb"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "MSI VENTUS 3X OC GeForce RTX 3080 Ti 12 GB Video Card",
+                    "Price": "$2922.71",
+                    "URL": "https://au.pcpartpicker.com/product/cW92FT/msi-geforce-rtx-3080-ti-12-gb-ventus-3x-oc-video-card-geforce-rtx-3080-ti-ventus-3x-12g-oc"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "MSI MAG A850GL PCIE5 850 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": "$149.00",
+                    "URL": "https://au.pcpartpicker.com/product/zF4Zxr/msi-mag-a850gl-pcie5-850-w-80-gold-certified-fully-modular-atx-power-supply-mag-a850gl-pcie5"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Vetroo ARGB120 48.1 CFM 120 mm Fans 3-Pack",
+                    "Price": "$47.99",
+                    "URL": "https://au.pcpartpicker.com/product/Ws2WGX/vetroo-argb120-481-cfm-120-mm-fans-3-pack-vt-fan-argb120-bk-x3"
+                },
+                {
+                    "Type": "External Storage",
+                    "Name": "Samsung T9 Portable 2 TB External SSD",
+                    "Price": "$415.26",
+                    "URL": "https://au.pcpartpicker.com/product/trtLrH/samsung-t9-portable-2-tb-external-ssd-mu-pg2t0bam"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "Asiahorse Power Supply Sleeved Cable for Power Supply Extension Cable Wire Kit 1x24-PIN/ 2x8-PORT (4+4) M/B,3x8-PORT (6+2) PCI-E 30cm Length with Combs(Dual EPS White)",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/4hRgXL"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "darkFlash ATX Mid-Tower PC Case, Pre-Install 4 PWM ARGB Fans Computer Case, Full View Dual Tempered Glass Gaming PC Case, Type C Port, Supports up to 360mm Water Cooling Radiator (Black)",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/2MkH99/placeholder"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "Vertical g\u200bpu mount",
+                    "Price": "                                    $50.00 USD\n                                ",
+                    "URL": "https://au.pcpartpicker.com#view_custom_part"
+                }
+            ],
+            "Total": "$4185.57"
+        },
+        "Description": [
+            "I've been going through and upgrading a bunch of my parts and finally trying to make my pc look clean and this is going to be my final product for a long time."
+        ]
+    },
+    {
+        "Build": 42,
+        "Name": "1st PC - Budget Build",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 5 4600G 3.7 GHz 6-Core Processor",
+                    "Price": "$219.86",
+                    "URL": "https://au.pcpartpicker.com/product/CNVmP6/amd-ryzen-5-4600g-37-ghz-6-core-processor-100-100000147box"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "ASRock B550M Phantom Gaming 4 Micro ATX AM4 Motherboard",
+                    "Price": "$195.30",
+                    "URL": "https://au.pcpartpicker.com/product/TG9tt6/asrock-b550m-phantom-gaming-4-micro-atx-am4-motherboard-b550m-phantom-gaming-4"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Corsair Vengeance LPX 32 GB (2 x 16 GB) DDR4-3200 CL16 Memory",
+                    "Price": "$82.00",
+                    "URL": "https://au.pcpartpicker.com/product/W6ndnQ/corsair-vengeance-lpx-32-gb-2-x-16-gb-ddr4-3200-memory-cmk32gx4m2e3200c16"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Kingston NV2 1 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$69.00",
+                    "URL": "https://au.pcpartpicker.com/product/FnYmP6/kingston-nv2-1-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-snv2s1000g"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "KOLINK Observatory MX Glass ARGB ATX Mid Tower Case",
+                    "Price": "$95.00",
+                    "URL": "https://au.pcpartpicker.com/product/WmpQzy/kolink-observatory-mx-glass-argb-atx-mid-tower-case-observatory-mx-gw"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Thermaltake Toughpower GX2 600 W 80+ Gold Certified ATX Power Supply",
+                    "Price": "$218.65",
+                    "URL": "https://au.pcpartpicker.com/product/pG6qqs/thermaltake-toughpower-gx2-600-w-80-gold-certified-atx-power-supply-ps-tpd-0600nnfagu-2"
+                }
+            ],
+            "Total": "$879.81"
+        },
+        "Description": [
+            "Low price 1st PC - upgrade from laptop.",
+            "Didn't have any output for 1st 3 days, had to do some weird command line nonsense to get windows installed. Case fans do not work.",
+            "It's gucci"
+        ]
+    },
+    {
+        "Build": 43,
+        "Name": "Sub 550 Gaming pc to flip on marktplaats (dutch site for used stuff)",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 5 3600 3.6 GHz 6-Core Processor",
+                    "Price": "\u20ac50.00 EUR",
+                    "URL": "https://au.pcpartpicker.com/product/9nm323/amd-ryzen-5-3600-36-thz-6-core-processor-100-100000031box"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Thermalright Assassin Spirit 120 EVO 68.9 CFM CPU Cooler",
+                    "Price": "\u20ac33.90 EUR",
+                    "URL": "https://au.pcpartpicker.com/product/zrP8TW/thermalright-assassin-spirit-120-evo-689-cfm-cpu-cooler-as120-evo"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "ASRock A520M-HDV Micro ATX AM4 Motherboard",
+                    "Price": "\u20ac62.00 EUR",
+                    "URL": "https://au.pcpartpicker.com/product/bWqBD3/asrock-a520m-hdv-micro-atx-am4-motherboard-a520m-hdv"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Patriot Viper Steel RGB 16 GB (2 x 8 GB) DDR4-3200 CL18 Memory",
+                    "Price": "\u20ac41.95 EUR",
+                    "URL": "https://au.pcpartpicker.com/product/WYVG3C/patriot-viper-steel-rgb-16-gb-2-x-8-gb-ddr4-3200-cl18-memory-pvsr416g320c8k"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Kingston NV2 1 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "\u20ac47.99 EUR",
+                    "URL": "https://au.pcpartpicker.com/product/FnYmP6/kingston-nv2-1-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-snv2s1000g"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "PNY XLR8 Gaming REVEL EPIC-X RGB Dual Fan GeForce RTX 3060 12GB 12 GB Video Card",
+                    "Price": "\u20ac180.00 EUR",
+                    "URL": "https://au.pcpartpicker.com/product/ftJgXL/pny-geforce-rtx-3060-12-gb-xlr8-gaming-revel-epic-x-rgb-dual-fan-video-card-vcg306012dfxppb"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Montech AIR 100 ARGB MicroATX Mid Tower Case",
+                    "Price": "\u20ac49.00 EUR",
+                    "URL": "https://au.pcpartpicker.com/product/M7Z9TW/montech-air-100-argb-microatx-mid-tower-case-air-100-argb-black"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "be quiet! System Power 10 450 W 80+ Bronze Certified ATX Power Supply",
+                    "Price": "\u20ac47.52 EUR",
+                    "URL": "https://au.pcpartpicker.com/product/BqD7YJ/be-quiet-system-power-10-450-w-80-bronze-certified-atx-power-supply-bn326"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "windows 11",
+                    "Price": "                                    \u20ac16.00 EUR\n                                ",
+                    "URL": "https://au.pcpartpicker.com#view_custom_part"
+                }
+            ],
+            "Total": "\u20ac528.36 EUR"
+        },
+        "Description": [
+            "I built this yesterday to flip and i used my dad's high quality cam for the pic cuz my phone sucks",
+            "i used the r5 3600 bc of the diff between the used prices of 3600 and 5600",
+            "the case came without the needed screws so i had to send it back before i could build it",
+            "the rest of the build was just an amazing process and i hope ill get 15% profit from it"
+        ]
+    },
+    {
+        "Build": 44,
+        "Name": "Solid build ",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 9 7950X 4.5 GHz 16-Core Processor",
+                    "Price": "$819.00",
+                    "URL": "https://au.pcpartpicker.com/product/22XJ7P/amd-ryzen-9-7950x-45-ghz-16-core-processor-100-100000514wof"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Asus ROG Ryujin III ARGB 70.07 CFM Liquid CPU Cooler",
+                    "Price": "$519.00",
+                    "URL": "https://au.pcpartpicker.com/product/wqHqqs/asus-rog-ryujin-iii-argb-7007-cfm-liquid-cpu-cooler-90rc00l1-m0uay0"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "Gigabyte B650 AORUS ELITE AX ATX AM5 Motherboard",
+                    "Price": "$534.70",
+                    "URL": "https://au.pcpartpicker.com/product/WBwypg/gigabyte-b650-aorus-elite-ax-atx-am5-motherboard-b650-aorus-elite-ax"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Corsair Vengeance RGB 32 GB (2 x 16 GB) DDR5-6000 CL36 Memory",
+                    "Price": "$159.00",
+                    "URL": "https://au.pcpartpicker.com/product/kTJp99/corsair-vengeance-rgb-32-gb-2-x-16-gb-ddr5-6000-cl36-memory-cmh32gx5m2e6000c36"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Corsair Vengeance RGB 32 GB (2 x 16 GB) DDR5-6000 CL36 Memory",
+                    "Price": "$159.00",
+                    "URL": "https://au.pcpartpicker.com/product/kTJp99/corsair-vengeance-rgb-32-gb-2-x-16-gb-ddr5-6000-cl36-memory-cmh32gx5m2e6000c36"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 870 Evo 2 TB 2.5\" Solid State Drive",
+                    "Price": "$255.00",
+                    "URL": "https://au.pcpartpicker.com/product/3CmmP6/samsung-870-evo-2-tb-25-solid-state-drive-mz-77e2t0bam"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 990 Pro 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$299.00",
+                    "URL": "https://au.pcpartpicker.com/product/34ytt6/samsung-990-pro-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p2t0bw"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "MSI VENTUS 3X OC GeForce RTX 4070 12 GB Video Card",
+                    "Price": "$1112.10",
+                    "URL": "https://au.pcpartpicker.com/product/9ZZXsY/msi-ventus-3x-oc-geforce-rtx-4070-12-gb-video-card-rtx-4070-ventus-3x-12g-oc"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "HYTE Y70 Touch Infinite ATX Mid Tower Case",
+                    "Price": "$649.00",
+                    "URL": "https://au.pcpartpicker.com/product/Yp6NnQ/hyte-y70-touch-infinite-atx-mid-tower-case-cs-hyte-y70ti-bb"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Corsair RM1000x (2021) 1000 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": "$229.00",
+                    "URL": "https://au.pcpartpicker.com/product/jRvdnQ/corsair-rm1000x-2021-1000-w-80-gold-certified-fully-modular-atx-power-supply-cp-9020201-na"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 11 Pro OEM - DVD 64-bit",
+                    "Price": "$229.00",
+                    "URL": "https://au.pcpartpicker.com/product/yjbTwP/microsoft-windows-11-pro-oem-dvd-64-bit-fqc-10529"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Lian Li Uni Fan SL-Infinity 61.3 CFM 120 mm Fans 3-Pack",
+                    "Price": "$149.00",
+                    "URL": "https://au.pcpartpicker.com/product/WNbTwP/lian-li-uni-fan-sl-infinity-613-cfm-120-mm-fans-3-pack-uf-slin120-3b"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Lian Li Uni Fan SL-Infinity 61.3 CFM 120 mm Fans 3-Pack",
+                    "Price": "$149.00",
+                    "URL": "https://au.pcpartpicker.com/product/WNbTwP/lian-li-uni-fan-sl-infinity-613-cfm-120-mm-fans-3-pack-uf-slin120-3b"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Lian Li Uni Fan SL-Infinity 61.3 CFM 120 mm Fans 3-Pack",
+                    "Price": "$149.00",
+                    "URL": "https://au.pcpartpicker.com/product/WNbTwP/lian-li-uni-fan-sl-infinity-613-cfm-120-mm-fans-3-pack-uf-slin120-3b"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Lian Li Uni Fan SL-Infinity 72.7 CFM 140 mm Fan",
+                    "Price": "$45.00",
+                    "URL": "https://au.pcpartpicker.com/product/JpjBD3/lian-li-uni-fan-sl-infinity-727-cfm-140-mm-fan-uf-slin140-1b"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "Samsung Odyssey G9 G93SC 49.0\" 5120 x 1440 240 Hz Curved Monitor",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/tRHqqs/samsung-odyssey-g9-g93sc-490-5120-x-1440-240-hz-curved-monitor-ls49cg932snxza"
+                }
+            ],
+            "Total": "$5455.80"
+        },
+        "Description": [
+            "Last time I built a pc was back in 2013, lots of things have changed. Still as fun as ever though."
+        ]
+    },
+    {
+        "Build": 45,
+        "Name": "Flat Earth Society PC",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD EPYC 4564P 4.5 GHz 16-Core Processor",
+                    "Price": "$256.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/ppXV3C/amd-epyc-4564p-45-ghz-16-core-processor-100-100001476wof"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Thermalright Peerless Assassin 120 White ARGB 66.17 CFM CPU Cooler",
+                    "Price": "$35.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/fWKKHx/thermalright-peerless-assassin-120-white-argb-6617-cfm-cpu-cooler-pa120-white-argb-a"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "ASRock B650M Pro RS WiFi Micro ATX AM5 Motherboard",
+                    "Price": "$129.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/qcbRsY/asrock-b650m-pro-rs-wifi-micro-atx-am5-motherboard-b650m-pro-rs-wifi"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "TEAMGROUP T-Create Expert 64 GB (2 x 32 GB) DDR5-6000 CL34 Memory",
+                    "Price": "$150.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/FTMMnQ/teamgroup-t-create-expert-64-gb-2-x-32-gb-ddr5-6000-cl34-memory-ctcwd564g6000hc34bdc01"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "TEAMGROUP MP44 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$115.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/DN6NnQ/teamgroup-mp44-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-tm8fpw002t0c101"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "PowerColor Hellhound OC Radeon RX 7900 XT 20 GB Video Card",
+                    "Price": "$649.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/8MNYcf/powercolor-hellhound-oc-radeon-rx-7900-xt-20-gb-video-card-rx-7900-xt-20g-locwhite"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Asus Prime AP201 MicroATX Mini Tower Case",
+                    "Price": "$70.85 USD",
+                    "URL": "https://au.pcpartpicker.com/product/Y27scf/asus-prime-ap201-microatx-mini-tower-case-prime-ap201-tg-wh"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Super Flower LEADEX VII XG 850 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": "$139.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/RdHqqs/super-flower-leadex-vii-xg-850-w-80-gold-certified-fully-modular-atx-power-supply-sf-850f14xg"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 11 Home OEM - DVD 64-bit",
+                    "Price": "$0.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/dKkWGX/microsoft-windows-11-home-oem-dvd-64-bit-kw9-00633"
+                }
+            ],
+            "Total": "$1549.79 USD"
+        },
+        "Description": [
+            "Personal PC that is white"
+        ]
+    },
+    {
+        "Build": 46,
+        "Name": "Budget Build 2021",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "Intel Core i9-10850K 3.6 GHz 10-Core Processor",
+                    "Price": "$671.04",
+                    "URL": "https://au.pcpartpicker.com/product/nGFKHx/intel-core-i9-10850k-36-ghz-10-core-processor-bx8070110850k"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Cooler Master MasterLiquid 240L Core 71.93 CFM Liquid CPU Cooler",
+                    "Price": "$89.00",
+                    "URL": "https://au.pcpartpicker.com/product/DkZXsY/cooler-master-masterliquid-240l-core-7193-cfm-liquid-cpu-cooler-mlw-d24m-a17pk-r1"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "ASRock Z590 PG Velocita ATX LGA1200 Motherboard",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/qRJgXL/asrock-z590-pg-velocita-atx-lga1200-motherboard-z590-pg-velocita"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Corsair Vengeance RGB Pro 32 GB (2 x 16 GB) DDR4-3600 CL18 Memory",
+                    "Price": "$104.00",
+                    "URL": "https://au.pcpartpicker.com/product/khmFf7/corsair-vengeance-rgb-pro-32-gb-2-x-16-gb-ddr4-3600-memory-cmw32gx4m2z3600c18"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 980 Pro 1 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$180.00",
+                    "URL": "https://au.pcpartpicker.com/product/DDWBD3/samsung-980-pro-1-tb-m2-2280-nvme-solid-state-drive-mz-v8p1t0bam"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 990 EVO 2 TB M.2-2280 PCIe 5.0 X2 NVME Solid State Drive",
+                    "Price": "$233.56",
+                    "URL": "https://au.pcpartpicker.com/product/kFrqqs/samsung-990-evo-2-tb-m2-2280-pcie-50-x2-nvme-solid-state-drive-mz-v9e2t0bam"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "NVIDIA Founders Edition GeForce GTX 1060 6GB 6 GB Video Card",
+                    "Price": "$0.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/GVFXsY/nvidia-geforce-gtx-1060-6gb-6gb-founders-edition-video-card-geforce-gtx-1060-6gb-founders-edition"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Corsair Carbide Series 175R RGB ATX Mid Tower Case",
+                    "Price": "$129.00",
+                    "URL": "https://au.pcpartpicker.com/product/Vk448d/corsair-carbide-series-175r-rgb-atx-mid-tower-case-cc-9011171-ww"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Corsair RM750x (2021) 750 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": "$169.00",
+                    "URL": "https://au.pcpartpicker.com/product/6NcG3C/corsair-rm750x-2021-750-w-80-gold-certified-fully-modular-atx-power-supply-cp-9020199-na"
+                }
+            ],
+            "Total": "$1575.60"
+        },
+        "Description": [
+            "Power-hungry CPU. Runs hot"
+        ]
+    },
+    {
+        "Build": 47,
+        "Name": "Night Fury ",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 7 7800X3D 4.2 GHz 8-Core Processor",
+                    "Price": "$779.00",
+                    "URL": "https://au.pcpartpicker.com/product/3hyH99/amd-ryzen-7-7800x3d-42-ghz-8-core-processor-100-100000910wof"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Thermalright Frozen Prism ARGB 70.4 CFM Liquid CPU Cooler",
+                    "Price": "$109.00",
+                    "URL": "https://au.pcpartpicker.com/product/7Phv6h/thermalright-frozen-prism-argb-704-cfm-liquid-cpu-cooler-frozen-prism-360-black-argb"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "Gigabyte B650 EAGLE AX ATX AM5 Motherboard",
+                    "Price": "$267.00",
+                    "URL": "https://au.pcpartpicker.com/product/CvcgXL/gigabyte-b650-eagle-ax-atx-am5-motherboard-b650-eagle-ax"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "Corsair Vengeance RGB 32 GB (2 x 16 GB) DDR5-6000 CL30 Memory",
+                    "Price": "$182.71",
+                    "URL": "https://au.pcpartpicker.com/product/mjt9TW/corsair-vengeance-rgb-32-gb-2-x-16-gb-ddr5-6000-cl30-memory-cmh32gx5m2b6000z30k"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Western Digital Blue SN580 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$165.00",
+                    "URL": "https://au.pcpartpicker.com/product/266NnQ/western-digital-blue-sn580-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-wds200t3b0e"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "ASRock Phantom Gaming OC Radeon RX 7900 XT 20 GB Video Card",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/v2qPxr/asrock-phantom-gaming-oc-radeon-rx-7900-xt-20-gb-video-card-rx7900xt-pg-20go"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Montech SKY TWO ATX Mid Tower Case",
+                    "Price": "$119.00",
+                    "URL": "https://au.pcpartpicker.com/product/jpddnQ/montech-sky-two-atx-mid-tower-case-sky-two-black"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Corsair RM850x (2021) 850 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/26rRsY/corsair-rm850x-2021-850-w-80-gold-certified-fully-modular-atx-power-supply-cp-9020200-na"
+                }
+            ],
+            "Total": "$1621.71"
+        },
+        "Description": [
+            "This is my first build and I couldn\u2019t be anymore proud of how all the components complement each other. This PC is truly a beast !!!!"
+        ]
+    },
+    {
+        "Build": 48,
+        "Name": "AMD Ryzen 7 7800X3D ",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 7 7800X3D 4.2 GHz 8-Core Processor",
+                    "Price": "$779.00",
+                    "URL": "https://au.pcpartpicker.com/product/3hyH99/amd-ryzen-7-7800x3d-42-ghz-8-core-processor-100-100000910wof"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Thermalright Phantom Spirit 120 SE 66.17 CFM CPU Cooler",
+                    "Price": "$65.00",
+                    "URL": "https://au.pcpartpicker.com/product/GpbRsY/thermalright-phantom-spirit-120-se-6617-cfm-cpu-cooler-ps120se"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "Gigabyte B650 AORUS ELITE AX V2 ATX AM5 Motherboard",
+                    "Price": "$328.77",
+                    "URL": "https://au.pcpartpicker.com/product/KrWJ7P/gigabyte-b650-aorus-elite-ax-v2-atx-am5-motherboard-b650-aorus-elite-ax-v2"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "G.Skill Trident Z5 Neo RGB 32 GB (2 x 16 GB) DDR5-6000 CL30 Memory",
+                    "Price": "$189.00",
+                    "URL": "https://au.pcpartpicker.com/product/CXKKHx/gskill-trident-z5-neo-rgb-32-gb-2-x-16-gb-ddr5-6000-cl30-memory-f5-6000j3038f16gx2-tz5nr"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 990 Pro 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$299.00",
+                    "URL": "https://au.pcpartpicker.com/product/34ytt6/samsung-990-pro-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p2t0bw"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "XFX RX-79GMERCB9 Radeon RX 7900 GRE 16 GB Video Card",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/wXtLrH/xfx-rx-79gmercb9-radeon-rx-7900-gre-16-gb-video-card-rx-79gmercb9"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Montech AIR 903 MAX ATX Mid Tower Case",
+                    "Price": "$89.00",
+                    "URL": "https://au.pcpartpicker.com/product/2MwmP6/montech-air-903-max-atx-mid-tower-case-air-903-max-b"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Super Flower LEADEX VII XG 1000 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/9MV2FT/super-flower-leadex-vii-xg-1000-w-80-gold-certified-fully-modular-atx-power-supply-sf-1000f14xg"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 11 Home OEM - DVD 64-bit",
+                    "Price": "$181.00",
+                    "URL": "https://au.pcpartpicker.com/product/dKkWGX/microsoft-windows-11-home-oem-dvd-64-bit-kw9-00633"
+                }
+            ],
+            "Total": "$1930.77"
+        },
+        "Description": [
+            "First gaming PC."
+        ]
+    },
+    {
+        "Build": 49,
+        "Name": "Sith Build",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 7 9800X3D 4.7 GHz 8-Core Processor",
+                    "Price": "$479.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/fPyH99/amd-ryzen-7-9800x3d-47-ghz-8-core-processor-100-1000001084wof"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "NZXT Kraken Elite 360 78.02 CFM Liquid CPU Cooler",
+                    "Price": "$199.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/CyKscf/nzxt-kraken-elite-360-7802-cfm-liquid-cpu-cooler-rl-kn36e-b1"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "MSI MAG X670E TOMAHAWK WIFI ATX AM5 Motherboard",
+                    "Price": "$239.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/bGfxFT/msi-mag-x670e-tomahawk-wifi-atx-am5-motherboard-mag-x670e-tomahawk-wifi"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "G.Skill Trident Z5 Royal 48 GB (2 x 24 GB) DDR5-7200 CL36 Memory",
+                    "Price": "$229.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/Y94Zxr/gskill-trident-z5-royal-48-gb-2-x-24-gb-ddr5-7200-cl36-memory-f5-7200j3646f24gx2-tr5s"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "SK Hynix Platinum P41 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$129.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/yGTp99/sk-hynix-platinum-p41-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-shpp41-2000gm-2"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 990 Pro 4 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$269.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/RKYmP6/samsung-990-pro-4-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p4t0bw"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "Zotac GAMING AMP Holo GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+                    "Price": "$819.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/LMgrxr/zotac-gaming-amp-holo-geforce-rtx-4070-ti-super-16-gb-video-card-zt-d40730f-10p"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "HYTE Y70 Touch Infinite ATX Mid Tower Case",
+                    "Price": "$379.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/4X88TW/hyte-y70-touch-infinite-atx-mid-tower-case-cs-hyte-y70ti-rb"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Lian Li EDGE 850 W 80+ Platinum Certified Fully Modular ATX Power Supply",
+                    "Price": "$129.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/TxpQzy/lian-li-edge-850-w-80-platinum-certified-fully-modular-atx-power-supply-eg850"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 11 Home Retail - USB 64-bit",
+                    "Price": "$139.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/hMYmP6/microsoft-windows-11-home-retail-usb-64-bit-haj-00108"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Lian Li Uni Fan SL-Infinity 61.3 CFM 120 mm Fans 3-Pack",
+                    "Price": "$89.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/WNbTwP/lian-li-uni-fan-sl-infinity-613-cfm-120-mm-fans-3-pack-uf-slin120-3b"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Lian Li Uni Fan SL-Infinity 61.3 CFM 120 mm Fans 3-Pack",
+                    "Price": "$89.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/WNbTwP/lian-li-uni-fan-sl-infinity-613-cfm-120-mm-fans-3-pack-uf-slin120-3b"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Lian Li Uni Fan SL-Infinity 72.7 CFM 140 mm Fan",
+                    "Price": "$17.96 USD",
+                    "URL": "https://au.pcpartpicker.com/product/JpjBD3/lian-li-uni-fan-sl-infinity-727-cfm-140-mm-fan-uf-slin140-1b"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Lian Li UNI FAN SL-INF Reverse Blade 63.6 CFM 120 mm Fan",
+                    "Price": "$29.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/ZRgrxr/lian-li-uni-fan-sl-inf-reverse-blade-636-cfm-120-mm-fan-rslin120-1b"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Lian Li UNI FAN SL-INF Reverse Blade 63.6 CFM 120 mm Fan",
+                    "Price": "$29.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/ZRgrxr/lian-li-uni-fan-sl-inf-reverse-blade-636-cfm-120-mm-fan-rslin120-1b"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Lian Li UNI FAN SL-INF Reverse Blade 63.6 CFM 120 mm Fan",
+                    "Price": "$29.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/ZRgrxr/lian-li-uni-fan-sl-inf-reverse-blade-636-cfm-120-mm-fan-rslin120-1b"
+                }
+            ],
+            "Total": "$3307.81 USD"
+        },
+        "Description": [
+            "First time building a PC - took about 5 hours or so to put everything together.",
+            "Replaced the NZXT fans on the AIO with Lian Li SL-Infinity fans. The lighting is controlled by the motherboard as I had to get the connector from the lian li ARGB kit since the fans are also plugged into the cooler and haven't added the cable to the controller yet."
+        ]
+    },
+    {
+        "Build": 50,
+        "Name": "first pc",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 5 7600 3.8 GHz 6-Core Processor",
+                    "Price": "$284.66",
+                    "URL": "https://au.pcpartpicker.com/product/yXmmP6/amd-ryzen-5-7600-38-ghz-6-core-processor-100-100001015box"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "ASRock B650M Pro RS Micro ATX AM5 Motherboard",
+                    "Price": "$312.37",
+                    "URL": "https://au.pcpartpicker.com/product/FcbRsY/asrock-b650m-pro-rs-micro-atx-am5-motherboard-b650m-pro-rs"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "TEAMGROUP T-Force Delta RGB 32 GB (2 x 16 GB) DDR5-6000 CL38 Memory",
+                    "Price": "$169.00",
+                    "URL": "https://au.pcpartpicker.com/product/jZD7YJ/team-t-force-delta-rgb-32-gb-2-x-16-gb-ddr5-6000-cl38-memory-ff4d532g6000hc38adc01"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Western Digital Black SN770 1 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$128.94",
+                    "URL": "https://au.pcpartpicker.com/product/YVytt6/western-digital-1-tb-m2-2280-nvme-solid-state-drive-wds100t3x0e"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "Asus DUAL EVO OC GeForce RTX 4070 SUPER 12 GB Video Card",
+                    "Price": "$969.00",
+                    "URL": "https://au.pcpartpicker.com/product/qtbRsY/asus-dual-evo-oc-geforce-rtx-4070-super-12-gb-video-card-dual-rtx4070s-o12g-evo"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Asus Prime AP201 MicroATX Mini Tower Case",
+                    "Price": "$119.00",
+                    "URL": "https://au.pcpartpicker.com/product/Y27scf/asus-prime-ap201-microatx-mini-tower-case-prime-ap201-tg-wh"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Corsair RM850e (2023) 850 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": "$155.00",
+                    "URL": "https://au.pcpartpicker.com/product/4ZRwrH/corsair-rm850e-2023-850-w-80-gold-certified-fully-modular-atx-power-supply-cp-9020263-na"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "ARCTIC P12 PST 56.3 CFM 120 mm Fan",
+                    "Price": "$13.00",
+                    "URL": "https://au.pcpartpicker.com/product/2hpmP6/arctic-p12-pst-563-cfm-120-mm-fan-acfan00170a"
+                }
+            ],
+            "Total": "$2150.97"
+        },
+        "Description": [
+            "A bit of a challenge at first, ended up using a stock cooler for cpu bcs my aio did not fit because of a specific part of the motherboard. Had troubles with crashing but now it's fine, airflow should be rethought since i only have 2 fans blowing to my gpu at the moment. I'd also like to change to a better air cooler because after all the troubles with the aio i realised that it might not be worth the aesthetics. Works fine though."
+        ]
+    },
+    {
+        "Build": 51,
+        "Name": "\ud83e\udd47 baby's 1st build: -xXx-PaPeRDoLL-xXx- \ud83e\udd31\ud83c\udffb (2018)",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "Intel Core i7-8700K 3.7 GHz 6-Core Processor",
+                    "Price": "$319.76",
+                    "URL": "https://au.pcpartpicker.com/product/sxDzK8/intel-core-i7-8700k-37ghz-6-core-processor-bx80684i78700k"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "Corsair H100i PRO RGB 75 CFM Liquid CPU Cooler",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/hmBTwP/corsair-h100i-pro-rgb-75-cfm-liquid-cpu-cooler-cw-9060033-ww"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "Asus Prime Z370-A ATX LGA1151 Motherboard",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/3MJkcf/asus-prime-z370-a-atx-lga1151-motherboard-prime-z370-a"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "G.Skill Ripjaws V 32 GB (2 x 16 GB) DDR4-3200 CL16 Memory",
+                    "Price": "$85.00",
+                    "URL": "https://au.pcpartpicker.com/product/kXbkcf/gskill-ripjaws-v-32-gb-2-x-16-gb-ddr4-3200-cl16-memory-f4-3200c16d-32gvk"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Western Digital Caviar Blue 1 TB 3.5\" 7200 RPM Internal Hard Drive",
+                    "Price": "$78.00",
+                    "URL": "https://au.pcpartpicker.com/product/MwW9TW/western-digital-internal-hard-drive-wd10ezex"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 860 Evo 250 GB 2.5\" Solid State Drive",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/sNc48d/samsung-860-evo-250gb-25-solid-state-drive-mz-76e250bam"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "TEAMGROUP T-Force Cardea Zero Z330 2 TB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/8sZ9TW/team-t-force-cardea-zero-z330-2-tb-m2-2280-nvme-solid-state-drive-tm8fp8002t0c311"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "EVGA SC2 GeForce GTX 1080 Ti 11 GB Video Card",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/q438TW/evga-geforce-gtx-1080-ti-11gb-sc2-video-card-11g-p4-6593-kr"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Rosewill CULLINAN MX ATX Mid Tower Case",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/3p3H99/rosewill-cullinan-mx-atx-mid-tower-case-cullinan-mx"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Corsair RM850x (2018) 850 W 80+ Gold Certified Fully Modular ATX Power Supply",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/VgQG3C/corsair-rm850x-2018-850-w-80-gold-certified-fully-modular-atx-power-supply-cp-9020180-na"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 10 Pro OEM - DVD 64-bit",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/MfH48d/microsoft-windows-10-pro-oem-dvd-64-bit-fqc-08930"
+                },
+                {
+                    "Type": "Wireless Network Adapter",
+                    "Name": "Asus PCE-AC88 802.11a/b/g/n/ac PCIe x1 Wi-Fi Adapter",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/vwcMnQ/asus-pce-ac88-none-wi-fi-adapter-pce-ac88"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "Asus VG278Q 27.0\" 1920 x 1080 144 Hz Monitor",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/zLkj4D/asus-vg278q-270-1920x1080-144-hz-monitor-vg278q"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "Sceptre C275B-144RN 27.0\" 1920 x 1080 144 Hz Curved Monitor",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/3VqhP6/sceptre-c275b-144rn-270-1920x1080-144-hz-monitor-c275b-144rn"
+                },
+                {
+                    "Type": "Keyboard",
+                    "Name": "Corsair K95 RGB PLATINUM Wired Gaming Keyboard",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/MYtWGX/corsair-k95-rgb-platinum-wired-gaming-keyboard-ch-9127014-na"
+                },
+                {
+                    "Type": "Mouse",
+                    "Name": "Logitech G903 Wireless Optical Mouse",
+                    "Price": "$163.00",
+                    "URL": "https://au.pcpartpicker.com/product/6Bm323/logitech-g903-wireless-optical-mouse-910-005083"
+                },
+                {
+                    "Type": "Headphones",
+                    "Name": "Logitech G933 Artemis Spectrum 7.1 Channel  Headset",
+                    "Price": null,
+                    "URL": "https://au.pcpartpicker.com/product/zDx9TW/logitech-headphones-981000585"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "steam deck",
+                    "Price": "                                    $649.00 USD\n                                ",
+                    "URL": "https://au.pcpartpicker.com#view_custom_part"
+                }
+            ],
+            "Total": "$645.76"
+        },
+        "Description": [
+            "first of her name, long may she reign \ud83d\uded0",
+            "date of creation is an approximation, i don't remember the exact day",
+            "upd8s:",
+            "see Retired from Active Duty \ud83c\udf96 for what was originally in my build",
+            "on the cutting block:",
+            "yeeting these hoes soon into the Retired from Active Duty \ud83c\udf96 list once i get their replacements",
+            "she will be interred (aka repurposed) hopefully before the end of 2025, pay your respects now as she is on her death bed. sorry girl, ur getting up there in age and i never picked out the majority of ur parts from beginning anyway since i didn't trust myself at the time to make a parts list myself and i was migrating from my msi gaming laptop. i have a better idea of what i want from my daily driver thx to you. xoxo<3"
+        ]
+    },
+    {
+        "Build": 52,
+        "Name": "The Wraith",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 9 7950X 4.5 GHz 16-Core Processor",
+                    "Price": "$503.18 USD",
+                    "URL": "https://au.pcpartpicker.com/product/22XJ7P/amd-ryzen-9-7950x-45-ghz-16-core-processor-100-100000514wof"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "NZXT Kraken Elite 280 RGB (2024) 98.61 CFM Liquid CPU Cooler",
+                    "Price": "$252.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/q6kH99/nzxt-kraken-elite-280-rgb-2024-9861-cfm-liquid-cpu-cooler-rl-kr28e-b2"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "MSI MPG X870E CARBON WIFI ATX AM5 Motherboard",
+                    "Price": "$320.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/dGWJ7P/msi-mpg-x870e-carbon-wifi-atx-am5-motherboard-mpg-x870e-carbon-wifi"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "G.Skill Trident Z5 Neo RGB 64 GB (2 x 32 GB) DDR5-6000 CL30 Memory",
+                    "Price": "$214.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/DP7scf/gskill-trident-z5-neo-rgb-64-gb-2-x-32-gb-ddr5-6000-cl30-memory-f5-6000j3036g32gx2-tz5nrw"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 990 Pro 4 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive",
+                    "Price": "$269.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/RKYmP6/samsung-990-pro-4-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p4t0bw"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Crucial T705 W/Heatsink Limited Edition 2 TB M.2-2280 PCIe 5.0 X4 NVME Solid State Drive",
+                    "Price": "$350.17 USD",
+                    "URL": "https://au.pcpartpicker.com/product/TXqrxr/crucial-t705-wheatsink-limited-edition-2-tb-m2-2280-pcie-50-x4-nvme-solid-state-drive-ct2000t705ssd5a"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "EVGA XC3 ULTRA GAMING GeForce RTX 3070 Ti 8 GB Video Card",
+                    "Price": "$350.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/GtWzK8/evga-geforce-rtx-3070-ti-8-gb-xc3-ultra-gaming-video-card-08g-p5-3785-kl"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "Fractal Design Torrent Compact ATX Mid Tower Case",
+                    "Price": "$179.97 USD",
+                    "URL": "https://au.pcpartpicker.com/product/8GM48d/fractal-design-torrent-compact-atx-mid-tower-case-fd-c-tor1c-03"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "MSI MEG Ai1300P PCIE5 1300 W 80+ Platinum Certified Fully Modular ATX Power Supply",
+                    "Price": "$215.49 USD",
+                    "URL": "https://au.pcpartpicker.com/product/JDGbt6/msi-meg-ai1300p-pcie5-1300-w-80-platinum-certified-fully-modular-atx-power-supply-meg-ai1300p-pcie5"
+                },
+                {
+                    "Type": "Operating System",
+                    "Name": "Microsoft Windows 11 Pro OEM - DVD 64-bit",
+                    "Price": "$199.95 USD",
+                    "URL": "https://au.pcpartpicker.com/product/yjbTwP/microsoft-windows-11-pro-oem-dvd-64-bit-fqc-10529"
+                },
+                {
+                    "Type": "Case Fan",
+                    "Name": "Fractal Design Aspect 12 RGB 32 CFM 120 mm Fan",
+                    "Price": "$19.48 USD",
+                    "URL": "https://au.pcpartpicker.com/product/hQNxFT/fractal-design-aspect-12-rgb-32-cfm-120-mm-fan-fd-f-as1-1208"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "Dell U2723QE 27.0\" 3840 x 2160 60 Hz Monitor",
+                    "Price": "$0.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/CQkWGX/dell-u2723qe-270-3840x2160-60-hz-monitor-210-bdpf"
+                },
+                {
+                    "Type": "Keyboard",
+                    "Name": "Asus ROG Strix Scope II 96 RGB Wireless/Bluetooth/Wired Gaming Keyboard",
+                    "Price": "$139.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/GFP8TW/asus-rog-strix-scope-ii-96-rgb-wirelessbluetoothwired-gaming-keyboard-90mp037a-bkaa01"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "Cooler Master CMA-CEMB01XXBK1-GL ATX Universal Main Power Adapter for 90 Degree 24 Pin Installation",
+                    "Price": "$18.99 USD",
+                    "URL": "https://au.pcpartpicker.com/product/Q2DJ7P/cooler-master-cma-cemb01xxbk1-gl-atx-universal-main-power-adapter-for-90-degree-24-pin-installation"
+                },
+                {
+                    "Type": "Custom",
+                    "Name": "                                                                    CableMod C\u200bables (Whi\u200bte)                                                            ",
+                    "Price": "                                    $100.00 USD\n                                ",
+                    "URL": null
+                }
+            ],
+            "Total": "$3135.19 USD"
+        },
+        "Description": [
+            "Completed 12/12/2024.",
+            "This is my second pc build. Wow, have things changed in the PC world! Insane how fast the hardware is now!",
+            "I've been using a laptop for work for the past 2 decades and it's starting to get bogged down.\nI decided I wanted something more powerful that could handle 150 open browser tabs, 4 spreadsheets, run DaVinci Resolve video editing software, and play 1080p games with my kid.\nI wanted a balanced work/play PC build that I could use for the next 5-7 years with very little upgrades. I'll eventually upgrade to the newest GPU when launched in 2025.",
+            "I did go all out with a super bling Limited Edition Crucial T705 SSD 2TB PCIe 5.0 drive! I added a Samsung 990 Pro 4TB SSD for my video content, but he's hiding under the graphics card.",
+            "Cable routing was a bit time consuming. It took about 3 hours to get it all tied down and cleanly routed. Most of the wiring is behind radiator.",
+            "I'd love some feedback!",
+            "NOTE: My Asus Rog Strix Scope II 96 NX Snow keyboard is white to match my PC! Fractal Design Aspect 120mm Case Fan has not been installed yet.",
+            "FUTURE MODS: Nvidia 5000 series Graphics Card (unsure if it will actually fit in this case), AMD Zen 6 CPU, 4-8TB PCIE 4.0 NVME SSD (for empty slot)"
+        ]
+    },
+    {
+        "Build": 53,
+        "Name": "RX 7600 Gaming PC",
+        "Part List": {
+            "Parts": [
+                {
+                    "Type": "CPU",
+                    "Name": "AMD Ryzen 7 5800X 3.8 GHz 8-Core Processor",
+                    "Price": "$209.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/qtvqqs/amd-ryzen-7-5800x-38-ghz-8-core-processor-100-100000063wof"
+                },
+                {
+                    "Type": "CPU Cooler",
+                    "Name": "be quiet! Pure Rock 2 Black CPU Cooler",
+                    "Price": "$59.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/TyBhP6/be-quiet-pure-rock-2-black-cpu-cooler-bk007"
+                },
+                {
+                    "Type": "Motherboard",
+                    "Name": "MSI MAG B550 TOMAHAWK MAX WIFI ATX AM4 Motherboard",
+                    "Price": "$169.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/MfZ9TW/msi-mag-b550-tomahawk-max-wifi-atx-am4-motherboard-mag-b550-tomahawk-max-wifi"
+                },
+                {
+                    "Type": "Memory",
+                    "Name": "TEAMGROUP T-Force Vulcan Z 16 GB (2 x 8 GB) DDR4-3600 CL18 Memory",
+                    "Price": "$40.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/k47p99/team-t-force-vulcan-z-16-gb-2-x-8-gb-ddr4-3600-cl18-memory-tlzrd416g3600hc18jdc"
+                },
+                {
+                    "Type": "Storage",
+                    "Name": "Samsung 870 Evo 1 TB 2.5\" Solid State Drive",
+                    "Price": "$79.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/7nsnTW/samsung-870-evo-1-tb-25-solid-state-drive-mz-77e1t0bam"
+                },
+                {
+                    "Type": "Video Card",
+                    "Name": "MSI MECH 2X CLASSIC OC Radeon RX 7600 8 GB Video Card",
+                    "Price": "$379.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/bZcgXL/msi-mech-2x-classic-oc-radeon-rx-7600-xt-8-gb-video-card-rx-7600-mech-2x-classic-8g-oc"
+                },
+                {
+                    "Type": "Case",
+                    "Name": "BitFenix Comrade ATX Mid Tower Case",
+                    "Price": "$0.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/zxh9TW/bitfenix-case-bfccom100kkws1rp"
+                },
+                {
+                    "Type": "Power Supply",
+                    "Name": "Thermaltake Smart 700 W 80+ Certified ATX Power Supply",
+                    "Price": "$92.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/b8Jkcf/thermaltake-smart-700-w-80-certified-atx-power-supply-ps-spd-0700npcwus-w"
+                },
+                {
+                    "Type": "Monitor",
+                    "Name": "Asus VP228H 21.5\" 1920 x 1080 60 Hz Monitor",
+                    "Price": "$55.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/xbKhP6/asus-monitor-vp228h"
+                },
+                {
+                    "Type": "Mouse",
+                    "Name": "MSI CLUTCH Wired Optical Mouse",
+                    "Price": "$15.00 USD",
+                    "URL": "https://au.pcpartpicker.com/product/W9Fbt6/msi-clutch-gm08-wired-optical-mouse-clutch-gm08"
+                }
+            ],
+            "Total": "$1097.00 USD"
+        },
+        "Description": [
+            "Good budget pc, the case was generously donated from a friend, recently changed from an i5 to the AMD Ryzen 7 5800x and added a pure rock instead of the default fan, my motherboard dose not have wifi but its the same model. The graphics card was around 400 after tax CAD from when it came out 2023. Ghetto wiring disclaimer."
+        ]
     }
 ]
