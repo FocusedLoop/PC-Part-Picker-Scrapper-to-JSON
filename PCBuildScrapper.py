@@ -28,7 +28,7 @@ else:
     lastBuild = 0
 
 # Reduce urls
-# Note - Converted urls: 53
+# Note - Converted urls: 107
 urlsAmount = 500
 urls = urls[lastBuild:lastBuild+urlsAmount]
 attempts = 0
@@ -53,7 +53,9 @@ for i, url in enumerate(urls):
         driver.get(url)
 
         # Solve CAPTCHA
-        if attempts == 0:
+        html = driver.page_source
+        soup = BeautifulSoup(html, "html.parser")
+        if soup.find("span", {"class": "cb-lb-t"}).text == "Verify you are human":
             print("Solving CAPTCHA")
             passCloudFlare()
         
