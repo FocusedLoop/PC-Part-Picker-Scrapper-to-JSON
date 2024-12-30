@@ -60,18 +60,24 @@ for i, url in enumerate(urls):
         # Solve CAPTCHA
         html = driver.page_source
         soup = BeautifulSoup(html, "html.parser")
-        flareTag = soup.find("p", {"id": "TBuuD2"})
-        if "Verify you are human" in flareTag.text:
+        flareTag = (
+            soup.find("p", {"id": "TBuuD2"}).text 
+            if soup.find("p", {"id": "TBuuD2"}) 
+            else ""
+        )
+
+        if "Verify you are human" in flareTag:
             print("Solving CAPTCHA")
             passCloudFlare()
-            WebDriverWait(driver, 15).until(
-                EC.presence_of_element_located((By.ID, "h1.pageTitle.build__name"))
+            element = WebDriverWait(driver, 15).until(
+                EC.visibility_of_element_located((By.CSS_SELECTOR, "h1.pageTitle.build__name"))
             )
+            print(f"Element text: {element.text}")
 
         html = driver.page_source
         soup = BeautifulSoup(html, "html.parser")
-
         pcpp = Scraper(driver)
+
         # Get description, name and part list link
         name = soup.find("h1", {"class": "pageTitle build__name"}).text
         desc = soup.find("div", {"class": "markdown"})
@@ -106,8 +112,9 @@ for i, url in enumerate(urls):
             "Part List": build_data,
             "Description": desc_text,
             })
+    except IndexError: i-=1
     except Exception as e:
-        print("Parts missing, skipping build...")
+        print(f"Parts missing, skipping build...\n{e}")
         skippedBuild += 1
     attempts += 1
 driver.quit()
