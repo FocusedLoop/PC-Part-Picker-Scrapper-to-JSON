@@ -36,6 +36,7 @@ else:
 urlsAmount = 500
 urls = urls[lastBuild:lastBuild+urlsAmount]
 attempts = 0
+maxAttempts = random.randint(30, 60)
 
 # Create json data for each pc build
 driver = randIP()
@@ -44,11 +45,13 @@ skippedBuild = 0
 for i, url in enumerate(urls):
 
     # Relaunch driver every 20 to 50 urls
-    if attempts > 0 and attempts % random.randint(20, 50) == 0:
+    if attempts >= maxAttempts:
         print("Relaunching driver...")
         saveBuilds(previousFile, builds)
         driver.quit()
         time.sleep(random.randint(5, 10))
+        attempts = 0
+        maxAttempts = random.randint(30, 60)
         driver = randIP()
     
     print(f'Part List ({i+1}/{len(urls)}): {url}')
