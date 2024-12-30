@@ -74,12 +74,12 @@ for i, url in enumerate(urls):
         pcpp = Scraper(driver)
         # Get description, name and part list link
         name = soup.find("h1", {"class": "pageTitle build__name"}).text
-        print(name)
         desc = soup.find("div", {"class": "markdown"})
         desc_text = [p.text.strip() for p in desc.find_all("p")]
         list_link = soup.find("span", {"class": "header-actions"})
         href = list_link.find("a")["href"]
         list_code = href.split("/")[-1]
+        print(f"Name: {name}|List code: {list_code}")
 
         # Create part list
         list = pcpp.fetch_list(f"https://au.pcpartpicker.com/list/{list_code}")
