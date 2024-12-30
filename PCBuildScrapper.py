@@ -32,8 +32,8 @@ else:
     lastBuild = 0
 
 # Reduce urls
-# Note - Converted urls: 668
-urlsAmount = 500
+# Note - Converted urls: 1158
+urlsAmount = 2000
 urls = urls[lastBuild:lastBuild+urlsAmount]
 attempts = 0
 maxAttempts = random.randint(30, 60)
@@ -42,7 +42,12 @@ maxAttempts = random.randint(30, 60)
 driver = randIP()
 builds = []
 skippedBuild = 0
+lastUrl = None
 for i, url in enumerate(urls):
+    # Retry builds skipped from index error
+    if lastUrl != None:
+        url = lastUrl
+        lastUrl = None
 
     # Relaunch driver every 20 to 50 urls
     if attempts >= maxAttempts:
@@ -114,7 +119,9 @@ for i, url in enumerate(urls):
             "Part List": build_data,
             "Description": desc_text,
             })
-    except IndexError: i-=1
+    except IndexError:
+        i-=1
+        lastUrl = url
     except Exception as e:
         print(f"Parts missing, skipping build...\n{e}")
         skippedBuild += 1
