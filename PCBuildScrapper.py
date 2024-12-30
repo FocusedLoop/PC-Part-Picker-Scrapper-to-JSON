@@ -4,6 +4,10 @@ from scrap_part_list import Scraper
 from antiBot import passCloudFlare
 from setIP import randIP
 
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 urlsFile = r"C:\Users\joshu\OneDrive\Desktop\temp_python_workspace\bot\scrappedFiles\buildURLS.txt"
 jsonFile = r"C:\Users\joshu\OneDrive\Desktop\temp_python_workspace\bot\scrappedFiles\pc_build_parts.json"
 
@@ -60,17 +64,19 @@ for i, url in enumerate(urls):
         if "Verify you are human" in flareTag.text:
             print("Solving CAPTCHA")
             passCloudFlare()
-            time.sleep(5)
+            WebDriverWait(driver, 15).until(
+                EC.presence_of_element_located((By.ID, "h1.pageTitle.build__name"))
+            )
 
         html = driver.page_source
         soup = BeautifulSoup(html, "html.parser")
 
         pcpp = Scraper(driver)
         # Get description, name and part list link
-        print(soup.find("h1", {"class": "pageTitle build__name"}).text)
+        name = soup.find("h1", {"class": "pageTitle build__name"}).text
+        print(name)
         desc = soup.find("div", {"class": "markdown"})
         desc_text = [p.text.strip() for p in desc.find_all("p")]
-        name = soup.find("h1", {"class": "pageTitle build__name"}).text
         list_link = soup.find("span", {"class": "header-actions"})
         href = list_link.find("a")["href"]
         list_code = href.split("/")[-1]
