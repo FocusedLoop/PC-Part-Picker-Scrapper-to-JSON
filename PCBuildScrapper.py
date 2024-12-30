@@ -33,7 +33,7 @@ else:
 
 # Reduce urls
 # Note - Converted urls: 668
-urlsAmount = 5
+urlsAmount = 500
 urls = urls[lastBuild:lastBuild+urlsAmount]
 attempts = 0
 maxAttempts = random.randint(30, 60)
@@ -75,7 +75,6 @@ for i, url in enumerate(urls):
             element = WebDriverWait(driver, 15).until(
                 EC.visibility_of_element_located((By.CSS_SELECTOR, "h1.pageTitle.build__name"))
             )
-            print(f"Element text: {element.text}")
 
         html = driver.page_source
         soup = BeautifulSoup(html, "html.parser")
