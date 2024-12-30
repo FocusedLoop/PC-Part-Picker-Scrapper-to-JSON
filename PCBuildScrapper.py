@@ -99,6 +99,16 @@ for i, url in enumerate(urls):
         parts = pc_list.parts
         total = pc_list.total
 
+        # Check for duplicate data
+        is_duplicate = any(
+            b["Name"] == name and b["Part List"]["Total"] == total
+            for b in builds
+        )
+        if is_duplicate:
+            print("Duplicate build detected. Skipping this URL...")
+            skippedBuild += 1
+            continue
+
         parts_data = []
         for part in parts:
             parts_data.append({
