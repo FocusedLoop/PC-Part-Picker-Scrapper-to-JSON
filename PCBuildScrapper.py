@@ -42,13 +42,11 @@ maxAttempts = random.randint(30, 60)
 driver = randIP()
 builds = []
 skippedBuild = 0
-lastUrl = None
-for i, url in enumerate(urls):
-    # Retry builds skipped from index error
-    if lastUrl != None:
-        url = lastUrl
-        lastUrl = None
 
+# Succesful builds
+build_counter = lastBuild
+
+for i, url in enumerate(urls):
     # Relaunch driver every 20 to 50 urls
     if attempts >= maxAttempts:
         print("Relaunching driver...")
@@ -61,7 +59,7 @@ for i, url in enumerate(urls):
     
     print(f'Part List ({i+1}/{len(urls)}): {url}')
     try:
-        # Set url and  wait for data to load
+        # Set url and wait for data to load
         driver.get(url)
         time.sleep(random.randint(5, 7))
 
@@ -77,10 +75,12 @@ for i, url in enumerate(urls):
         if "Verify you are human" in flareTag:
             print("Solving CAPTCHA")
             passCloudFlare()
-            element = WebDriverWait(driver, 15).until(
+            # Wait for element to appear
+            WebDriverWait(driver, 15).until(
                 EC.visibility_of_element_located((By.CSS_SELECTOR, "h1.pageTitle.build__name"))
             )
 
+        # Re-parse page after any CAPTCHA
         html = driver.page_source
         soup = BeautifulSoup(html, "html.parser")
         pcpp = Scraper(driver)
@@ -92,14 +92,14 @@ for i, url in enumerate(urls):
         list_link = soup.find("span", {"class": "header-actions"})
         href = list_link.find("a")["href"]
         list_code = href.split("/")[-1]
-        print(f"Name: {name}|List code: {list_code}")
+        print(f"Name: {name} | List code: {list_code}")
 
         # Create part list
-        list = pcpp.fetch_list(f"https://au.pcpartpicker.com/list/{list_code}")
-        parts = list.parts
-        total = list.total
-        parts_data = []
+        pc_list = pcpp.fetch_list(f"https://au.pcpartpicker.com/list/{list_code}")
+        parts = pc_list.parts
+        total = pc_list.total
 
+        parts_data = []
         for part in parts:
             parts_data.append({
                 "Type": part.type,
@@ -111,24 +111,28 @@ for i, url in enumerate(urls):
         build_data = {
             "Parts": parts_data,
             "Total": total,
-            }
+        }
 
+        # Append this successful build
         builds.append({
-            "Build": lastBuild + i - skippedBuild,
+            "Build": build_counter,
             "Name": name,
             "Part List": build_data,
             "Description": desc_text,
-            })
-    except IndexError:
-        i-=1
-        lastUrl = url
+        })
+        build_counter += 1  # increment only on success
+
     except Exception as e:
         print(f"Parts missing, skipping build...\n{e}")
         skippedBuild += 1
+        # Just skip this one and continue
+
     attempts += 1
+
 driver.quit()
 
+# Save all builds so far
 saveBuilds(previousFile, builds)
 print(f"{len(urls)} PC Builds scrapped")
-print(f"{len(urls) - skippedBuild} PC Builds converted to json")
+print(f"{build_counter - lastBuild} PC Builds converted to json (this run)")
 print(f"{skippedBuild} PC Builds skipped")
