@@ -28,7 +28,7 @@ else:
     lastBuild = 0
 
 # Reduce urls
-# Note - Converted urls: 107
+# Note - Converted urls: 137
 urlsAmount = 500
 urls = urls[lastBuild:lastBuild+urlsAmount]
 attempts = 0
@@ -57,7 +57,7 @@ for i, url in enumerate(urls):
         html = driver.page_source
         soup = BeautifulSoup(html, "html.parser")
         flareTag = soup.find("p", {"id": "TBuuD2"})
-        if "Verify you are human" in flareTag:
+        if "Verify you are human" in flareTag.text:
             print("Solving CAPTCHA")
             passCloudFlare()
             time.sleep(5)
