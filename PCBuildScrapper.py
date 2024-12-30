@@ -49,8 +49,9 @@ for i, url in enumerate(urls):
     
     print(f'Part List ({i+1}/{len(urls)}): {url}')
     try:
-        # Set url
+        # Set url and  wait for data to load
         driver.get(url)
+        time.sleep(random.randint(5, 7))
 
         # Solve CAPTCHA
         html = driver.page_source
@@ -59,9 +60,7 @@ for i, url in enumerate(urls):
         if "Verify you are human" in flareTag:
             print("Solving CAPTCHA")
             passCloudFlare()
-        
-        # Wait for data to load
-        time.sleep(random.randint(5, 7))
+            time.sleep(5)
 
         html = driver.page_source
         soup = BeautifulSoup(html, "html.parser")
