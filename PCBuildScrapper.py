@@ -55,7 +55,8 @@ for i, url in enumerate(urls):
         # Solve CAPTCHA
         html = driver.page_source
         soup = BeautifulSoup(html, "html.parser")
-        if soup.find("span", {"class": "cb-lb-t"}).text == "Verify you are human":
+        flareTag = soup.find("p", {"id": "TBuuD2"})
+        if "Verify you are human" in flareTag:
             print("Solving CAPTCHA")
             passCloudFlare()
         
