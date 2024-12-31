@@ -17,7 +17,7 @@ def driverSetup(ip):
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-    driver = uc.Chrome(service=Service(chromePath), options=chrome_options)
+    driver = uc.Chrome(service=Service(chromePath), options=chrome_options, use_subprocess=True)
     driver.maximize_window()
     return driver
 

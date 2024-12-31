@@ -32,8 +32,8 @@ else:
     lastBuild = 0
 
 # Reduce urls
-# Note - Converted urls: 1158
-urlsAmount = 2000
+# Note - Converted urls: 1550
+urlsAmount = 1000
 urls = urls[lastBuild:lastBuild+urlsAmount]
 attempts = 0
 maxAttempts = random.randint(30, 60)
