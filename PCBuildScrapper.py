@@ -32,8 +32,8 @@ else:
     lastBuild = 0
 
 # Reduce urls
-# Note - Converted urls: 1550
-urlsAmount = 1000
+# Note - Converted urls: 5123
+urlsAmount = 3000
 urls = urls[lastBuild:lastBuild+urlsAmount]
 attempts = 0
 maxAttempts = random.randint(30, 60)
@@ -76,7 +76,7 @@ for i, url in enumerate(urls):
             print("Solving CAPTCHA")
             passCloudFlare()
             # Wait for element to appear
-            WebDriverWait(driver, 15).until(
+            WebDriverWait(driver, 60).until(
                 EC.visibility_of_element_located((By.CSS_SELECTOR, "h1.pageTitle.build__name"))
             )
 
