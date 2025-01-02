@@ -1,29 +1,26 @@
 import json, time, random, os
 from bs4 import BeautifulSoup
-from scrap_part_list import Scraper
-from antiBot import passCloudFlare
-from setIP import randIP
-
+from botTools.scrap_part_list import Scraper
+from botTools.antiBot import passCloudFlare
+from botTools.setIP import randIP
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
-urlsFile = r"C:\Users\joshu\OneDrive\Desktop\temp_python_workspace\bot\scrappedFiles\buildURLS.txt"
-jsonFile = r"C:\Users\joshu\OneDrive\Desktop\temp_python_workspace\bot\scrappedFiles\pc_build_parts.json"
+from config import FILE_PATHS, BUILD_SCRAPPING_SETTINGS
 
 # Save files
 def saveBuilds(existing_data, new_builds):
     existing_data.extend(new_builds)
-    with open(jsonFile, "w") as f:
+    with open(FILE_PATHS['build_file'], "w") as f:
         json.dump(existing_data, f, indent=4)
 
 # Read urls
-with open(urlsFile, "r") as file:
+with open(FILE_PATHS['url_file'], "r") as file:
     urls = [line.strip() for line in file.readlines()]
 
 # Check for existing json
-if os.path.isfile(jsonFile):
-    with open(jsonFile, "r") as file:
+if os.path.isfile(FILE_PATHS['build_file']):
+    with open(FILE_PATHS['build_file'], "r") as file:
         previousFile = json.load(file)
     lastBuild = previousFile[-1]["Build"] + 1
     print(f"{lastBuild} existing builds in json file")
@@ -32,8 +29,7 @@ else:
     lastBuild = 0
 
 # Reduce urls
-# Note - Converted urls: 5123
-urlsAmount = 3000
+urlsAmount = BUILD_SCRAPPING_SETTINGS['url_amount']
 urls = urls[lastBuild:lastBuild+urlsAmount]
 attempts = 0
 maxAttempts = random.randint(30, 60)
@@ -47,12 +43,12 @@ skippedBuild = 0
 build_counter = lastBuild
 
 for i, url in enumerate(urls):
-    # Relaunch driver every 20 to 50 urls
+    # Relaunch driver every 30 to 60 urls to ensure bot is not detected
     if attempts >= maxAttempts:
         print("Relaunching driver...")
         saveBuilds(previousFile, builds)
         driver.quit()
-        time.sleep(random.randint(5, 10))
+        time.sleep(random.randint(5, 10)) # Further ensure randomness in the requests
         attempts = 0
         maxAttempts = random.randint(30, 60)
         driver = randIP()
@@ -61,7 +57,7 @@ for i, url in enumerate(urls):
     try:
         # Set url and wait for data to load
         driver.get(url)
-        time.sleep(random.randint(5, 7))
+        time.sleep(random.randint(BUILD_SCRAPPING_SETTINGS['random_delay']))
 
         # Solve CAPTCHA
         html = driver.page_source
