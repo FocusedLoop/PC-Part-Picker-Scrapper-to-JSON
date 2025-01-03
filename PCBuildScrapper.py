@@ -1,12 +1,10 @@
 import json, time, random, os
 from bs4 import BeautifulSoup
-from botTools.scrap_part_list import Scraper
-from botTools.antiBot import passCloudFlare
-from botTools.setIP import randIP
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from config import FILE_PATHS, BUILD_SCRAPPING_SETTINGS
+from botTools import Scraper, passCloudFlare, randIP
+from config.botSettings import FILE_PATHS, BUILD_SCRAPPING_SETTINGS
 
 # Save files
 def saveBuilds(existing_data, new_builds):
@@ -57,7 +55,7 @@ for i, url in enumerate(urls):
     try:
         # Set url and wait for data to load
         driver.get(url)
-        time.sleep(random.randint(BUILD_SCRAPPING_SETTINGS['random_delay']))
+        time.sleep(random.randint(*BUILD_SCRAPPING_SETTINGS['random_delay']))
 
         # Solve CAPTCHA
         html = driver.page_source
@@ -119,19 +117,19 @@ for i, url in enumerate(urls):
             "Total": total,
         }
 
-        # Append this successful build
+        # Append the successful build
         builds.append({
             "Build": build_counter,
             "Name": name,
             "Part List": build_data,
             "Description": desc_text,
         })
-        build_counter += 1  # increment only on success
+        build_counter += 1 
 
+    # Skip if there are any issues
     except Exception as e:
         print(f"Parts missing, skipping build...\n{e}")
         skippedBuild += 1
-        # Just skip this one and continue
 
     attempts += 1
 

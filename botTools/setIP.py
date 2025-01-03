@@ -3,8 +3,10 @@ from selenium.webdriver.chrome.service import Service
 from requests.exceptions import ConnectionError
 import undetected_chromedriver as uc
 import subprocess
-from config import FILE_PATHS
+from config.botSettings import FILE_PATHS
 
+# Set up chrome driver
+# If a vpn is connected driver should use the VPN's IP
 def driverSetup(ip):
     print(f"Changing proxy to {ip}")
     chrome_options = uc.ChromeOptions()
@@ -18,10 +20,12 @@ def driverSetup(ip):
     driver.maximize_window()
     return driver
 
+# Connect to random Nord VPN IP via the command line
 def randIP():
     goodIP = False
     retrys = 0
     os.chdir(FILE_PATHS['nordvpn_path'])
+    # Try different IP's until one works
     while goodIP == False:
         city = random.choice(["Brisbane", "Sydney", "Melbourne", "Adelaide", "Perth"])
         subprocess.Popen(f"NordVPN {city} -d", shell=True)
@@ -29,7 +33,6 @@ def randIP():
         subprocess.Popen(f"NordVPN {city} -c", shell=True)
         time.sleep(5)
         try:
-            
             findIP = requests.get("https://api.ipify.org?format=json", timeout=10)
             findIP.raise_for_status()
             ip = findIP.json()["ip"]
