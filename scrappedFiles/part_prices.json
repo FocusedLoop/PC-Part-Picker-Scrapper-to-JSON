@@ -1,0 +1,281 @@
+{
+    "GPUs": [
+      {
+        "model": "RTX 4090",
+        "launch_price_aud": 2398.5
+      },
+      {
+        "model": "RTX 4080",
+        "launch_price_aud": 2518.5
+      },
+      {
+        "model": "RTX 4080 Super",
+        "launch_price_aud": 1543.5
+      },
+      {
+        "model": "RTX 4070 Ti",
+        "launch_price_aud": 1108.5
+      },
+      {
+        "model": "RTX 4070 Ti Super",
+        "launch_price_aud": 1198.5
+      },
+      {
+        "model": "RTX 4070 Super",
+        "launch_price_aud": 898.5
+      },
+      {
+        "model": "RTX 4070",
+        "launch_price_aud": 763.5
+      },
+      {
+        "model": "RTX 4060 Ti 16GB",
+        "launch_price_aud": 673.5
+      },
+      {
+        "model": "RTX 4060 Ti",
+        "launch_price_aud": 568.5
+      },
+      {
+        "model": "RTX 4060",
+        "launch_price_aud": 433.5
+      },
+      {
+        "model": "RTX 3090 Ti",
+        "launch_price_aud": 2473.5
+      },
+      {
+        "model": "RTX 3090",
+        "launch_price_aud": 2137.5
+      },
+      {
+        "model": "RTX 3080 Ti",
+        "launch_price_aud": 1468.5
+      },
+      {
+        "model": "RTX 3080 12GB",
+        "launch_price_aud": 1273.5
+      },
+      {
+        "model": "RTX 3080",
+        "launch_price_aud": 1123.5
+      },
+      {
+        "model": "RTX 3070 Ti",
+        "launch_price_aud": 973.5
+      },
+      {
+        "model": "RTX 3070",
+        "launch_price_aud": 720
+      },
+      {
+        "model": "RTX 3060 Ti",
+        "launch_price_aud": 613.5
+      },
+      {
+        "model": "RTX 3060",
+        "launch_price_aud": 493.5
+      },
+      {
+        "model": "RTX 3050",
+        "launch_price_aud": 253.5
+      },
+      {
+        "model": "Titan RTX",
+        "launch_price_aud": 4498.5
+      },
+      {
+        "model": "RTX 2080 Ti",
+        "launch_price_aud": 1498.5
+      },
+      {
+        "model": "RTX 2080 Super",
+        "launch_price_aud": 898.5
+      },
+      {
+        "model": "RTX 2080",
+        "launch_price_aud": 1048.5
+      },
+      {
+        "model": "RTX 2070 Super",
+        "launch_price_aud": 748.5
+      },
+      {
+        "model": "RTX 2070",
+        "launch_price_aud": 748.5
+      },
+      {
+        "model": "RTX 2060 Super",
+        "launch_price_aud": 598.5
+      },
+      {
+        "model": "RTX 2060",
+        "launch_price_aud": 523.5
+      },
+      {
+        "model": "GTX 1660 Ti",
+        "launch_price_aud": 523.5
+      },
+      {
+        "model": "GTX 1660 Super",
+        "launch_price_aud": 493.5
+      },
+      {
+        "model": "GTX 1660",
+        "launch_price_aud": 448.5
+      },
+      {
+        "model": "GTX 1650 Super",
+        "launch_price_aud": 253.5
+      },
+      {
+        "model": "GTX 1650",
+        "launch_price_aud": 223.5
+      },
+      {
+        "model": "GTX 1080 Ti",
+        "launch_price_aud": 1348.5
+      },
+      {
+        "model": "GTX 1080",
+        "launch_price_aud": 1048.5
+      },
+      {
+        "model": "GTX 1070 Ti",
+        "launch_price_aud": 898.5
+      },
+      {
+        "model": "GTX 1070",
+        "launch_price_aud": 823.5
+      },
+      {
+        "model": "GTX 1060 6GB",
+        "launch_price_aud": 523.5
+      },
+      {
+        "model": "GTX 1060 3GB",
+        "launch_price_aud": 448.5
+      },
+      {
+        "model": "GTX 1050 Ti",
+        "launch_price_aud": 373.5
+      },
+      {
+        "model": "GTX 1050",
+        "launch_price_aud": 313.5
+      },
+      {
+        "model": "Radeon RX 7900 XTX",
+        "launch_price_aud": 1393.5
+      },
+      {
+        "model": "Radeon RX 7900 XT",
+        "launch_price_aud": 1033.5
+      },
+      {
+        "model": "Radeon RX 7800 XT",
+        "launch_price_aud": 673.5
+      },
+      {
+        "model": "Radeon RX 7700 XT",
+        "launch_price_aud": 597
+      },
+      {
+        "model": "Radeon RX 6950 XT",
+        "launch_price_aud": 1003.5
+      },
+      {
+        "model": "Radeon RX 6900 XT",
+        "launch_price_aud": 1216.5
+      },
+      {
+        "model": "Radeon RX 6800 XT",
+        "launch_price_aud": 1048.5
+      },
+      {
+        "model": "Radeon RX 6800",
+        "launch_price_aud": 687
+      },
+      {
+        "model": "Radeon RX 6750 XT",
+        "launch_price_aud": 543
+      },
+      {
+        "model": "Radeon RX 6700 XT",
+        "launch_price_aud": 681
+      },
+      {
+        "model": "Radeon RX 6700 10GB",
+        "launch_price_aud": 650
+      },
+      {
+        "model": "Radeon RX 6650 XT",
+        "launch_price_aud": 354
+      },
+      {
+        "model": "Radeon RX 6600 XT",
+        "launch_price_aud": 358.5
+      },
+      {
+        "model": "Radeon RX 6600",
+        "launch_price_aud": 283.5
+      },
+      {
+        "model": "Radeon RX 6500 XT",
+        "launch_price_aud": 223.5
+      },
+      {
+        "model": "Radeon RX 5700 XT",
+        "launch_price_aud": 598.5
+      },
+      {
+        "model": "Radeon RX 5700",
+        "launch_price_aud": 522
+      },
+      {
+        "model": "Radeon RX 5600 XT",
+        "launch_price_aud": 472.5
+      },
+      {
+        "model": "Radeon RX 590",
+        "launch_price_aud": 373.5
+      },
+      {
+        "model": "Radeon RX 580",
+        "launch_price_aud": 358.5
+      },
+      {
+        "model": "Radeon RX 570",
+        "launch_price_aud": 313.5
+      },
+      {
+        "model": "Radeon RX Vega 64",
+        "launch_price_aud": 650
+      },
+      {
+        "model": "Radeon RX Vega 56",
+        "launch_price_aud": 500
+      },
+      {
+        "model": "Radeon RX 7600 XT",
+        "launch_price_aud": 471
+      },
+      {
+        "model": "Radeon RX 7600",
+        "launch_price_aud": 373.5
+      },
+      {
+        "model": "Intel Arc A770 16GB",
+        "launch_price_aud": 600
+      },
+      {
+        "model": "Intel Arc A750",
+        "launch_price_aud": 298.5
+      },
+      {
+        "model": "Intel Arc A580",
+        "launch_price_aud": 268.5
+      }
+    ]
+  }
+  
