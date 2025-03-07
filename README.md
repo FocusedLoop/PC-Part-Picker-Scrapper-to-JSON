@@ -1,11 +1,13 @@
 # PC Part Picker Scraper Bot
 
 ## Overview
-A Python bot designed for scraping PC build data from PCPartPicker using **Selenium, regex, BeautifulSoup**, and an older version of **PyPartPicker**. The bot includes **anti-Cloudflare mechanisms** and **NordVPN IP rotation** to bypass detection. 
+A Python bot designed for scraping PC build data from PCPartPicker using **Selenium, regex, BeautifulSoup**, and an older version of **PyPartPicker**. The bot includes **anti-Cloudflare mechanisms** and **NordVPN IP rotation** to bypass detection.  
+
+⚠ **This project was created for learning purposes only.** The scraped files are empty as a result. The goal was to explore how websites implement bot detection and protection mechanisms.
 
 ## Features
 - **NordVPN IP Rotation**: Prevents detection by switching IP addresses.
-- **Cloudflare Bypass**: Uses built-in anti-bot mechanisms (requires manual configuration).
+- **Cloudflare Bypass**: Uses built-in anti-bot mechanisms (**⚠ No longer works as Cloudflare adapted**).
 - **Two Modes**:
   1. **URL Scraping** (`PCBuildURLScrapper.py`): Collects PC build URLs.
   2. **Data Scraping** (`PCBuildScrapper.py`): Extracts part details from collected URLs and saves them to JSON.
@@ -41,6 +43,7 @@ Adjust `botSettings.py` for system compatibility, including:
   ```
 
 ## Notes
-- Cloudflare bypass requires manual configuration per system.
-- NordVPN must be installed and properly configured.
-- JSON output files are located in the `scrappedFiles/` directory.
+- **Cloudflare has detected and blocked the bypass method used in this project.** This bot is no longer functional, and I do not plan to update or fix it.
+- **Proxies are a much better solution** for scraping compared to using a VPN.
+- **NordVPN must be installed and properly configured** for the bot to attempt IP rotation.
+- **JSON output files in `scrappedFiles/` are empty** as this project was purely for learning.
