@@ -5,7 +5,7 @@ A Python bot designed for scraping PC build data from PCPartPicker using **Selen
 
 **This project was created for learning purposes only.** The scraped files contain only sample data. The goal was to explore how websites implement bot detection and protection mechanisms.  
 
-During development, the bot successfully collected **over 10,000 PC builds** from PCPartPicker. However, due to a bug in the data collection process, **duplicate builds were scraped**, reducing the final cleaned dataset to **6,000 unique builds**. This issue has since been **fixed**, but the project is no longer maintained as Cloudflare has adapted to detect the bot.
+During development, the bot successfully collected **over 10,000 PC builds** from PCPartPicker. However, due to a bug in the data collection process, **duplicate builds were scraped**, reducing the final cleaned dataset to **6,000 unique builds**. This issue has since been **fixed**; however, it should be noted that the project is no longer maintained, as I only needed a small sample of PC build data for another project.
 
 ## Features
 - **NordVPN IP Rotation**: Prevents detection by switching IP addresses.
