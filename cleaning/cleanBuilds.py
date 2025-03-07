@@ -2,9 +2,9 @@ import json
 import re
 
 # Paths to files
-BUILD_FILE = r"C:\Users\joshu\OneDrive\Desktop\temp_python_workspace\bot\scrappedFiles\pc_build_parts.json"
-DEFAULT_PRICES_FILE = r"C:\Users\joshu\OneDrive\Desktop\temp_python_workspace\bot\cleaning\default_prices.json"
-OUTPUT_FILE = r"C:\Users\joshu\OneDrive\Desktop\temp_python_workspace\bot\scrappedFiles\pc_build_parts_cleaned.json"
+BUILD_FILE = r""
+DEFAULT_PRICES_FILE = r""
+OUTPUT_FILE = r""
 
 def detect_brand_and_tier(part_type, part_name):
     name_lower = part_name.lower()
