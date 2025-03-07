@@ -4,7 +4,19 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from botTools import Scraper, passCloudFlare, randIP
-from config.botSettings import FILE_PATHS, BUILD_SCRAPPING_SETTINGS
+from config.botSettings import BUILD_SCRAPPING_SETTINGS
+from config.botPaths import FILE_PATHS
+
+# New tab
+def open_new_tab(driver, url=None):
+    original_windows = driver.window_handles
+    driver.switch_to.new_window('tab')
+    new_windows = driver.window_handles
+    new_window = [window for window in new_windows if window not in original_windows][0]
+    driver.switch_to.window(new_window)
+    if url:
+        driver.get(url)
+    return new_window
 
 # Save files
 def saveBuilds(existing_data, new_builds):
@@ -51,7 +63,6 @@ for i, url in enumerate(urls):
         maxAttempts = random.randint(30, 60)
         driver = randIP()
     
-    print(f'Part List ({i+1}/{len(urls)}): {url}')
     try:
         # Set url and wait for data to load
         driver.get(url)
@@ -61,13 +72,15 @@ for i, url in enumerate(urls):
         html = driver.page_source
         soup = BeautifulSoup(html, "html.parser")
         flareTag = (
-            soup.find("p", {"id": "TBuuD2"}).text 
-            if soup.find("p", {"id": "TBuuD2"}) 
+            soup.find("p", {"id": "KRhjd5"}).text 
+            if soup.find("p", {"id": "KRhjd5"}) 
             else ""
         )
 
         if "Verify you are human" in flareTag:
             print("Solving CAPTCHA")
+            open_new_tab(driver, url)
+            #time.sleep(random.randint(*BUILD_SCRAPPING_SETTINGS['random_delay']))
             passCloudFlare()
             # Wait for element to appear
             WebDriverWait(driver, 60).until(
