@@ -3,7 +3,7 @@
 ## Overview
 A Python bot designed for scraping PC build data from PCPartPicker using **Selenium, regex, BeautifulSoup**, and an older version of **PyPartPicker**. The bot includes **anti-Cloudflare mechanisms** and **NordVPN IP rotation** to bypass detection.  
 
-**This project was created for learning purposes only.** The scraped files are empty as a result. The goal was to explore how websites implement bot detection and protection mechanisms.
+**This project was created for learning purposes only.** The scraped files are filled with sample data only. The goal was to explore how websites implement bot detection and protection mechanisms.
 
 ## Features
 - **NordVPN IP Rotation**: Prevents detection by switching IP addresses.
