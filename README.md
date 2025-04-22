@@ -7,6 +7,8 @@ A Python bot designed for scraping PC build data from PCPartPicker using **Selen
 
 During development, the bot successfully collected **over 10,000 PC builds** from PCPartPicker. However, due to a bug in the data collection process, **duplicate builds were scraped**, reducing the final cleaned dataset to **6,000 unique builds**. This issue has since been **fixed**; however, it should be noted that the project is no longer maintained, as I only needed a small sample of PC build data for another project.
 
+The data that was collected with this bot was used to make [FocusedLoop/Llama3.1-PCBuilder](https://huggingface.co/FocusedLoop/Llama3.1-PCBuilder)
+
 ## Features
 - **NordVPN IP Rotation**: Prevents detection by switching IP addresses.
 - **Cloudflare Bypass**: Uses built-in anti-bot mechanisms (**No longer works as Cloudflare adapted**).
